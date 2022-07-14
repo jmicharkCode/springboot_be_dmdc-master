@@ -1,0 +1,166 @@
+2022-01-26 11:25:22,325 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 21040 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 11:25:22,327 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 11:25:22,328 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 11:25:24,678 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [main] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authenticationJwtTokenFilter': Unsatisfied dependency expressed through field 'jwtUtils'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bkavBaoTQSecretKey' in value "${bkavBaoTQSecretKey}"
+2022-01-26 11:25:24,711 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:473)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:206)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authenticationJwtTokenFilter': Unsatisfied dependency expressed through field 'jwtUtils'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bkavBaoTQSecretKey' in value "${bkavBaoTQSecretKey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtils': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bkavBaoTQSecretKey' in value "${bkavBaoTQSecretKey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 55 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'bkavBaoTQSecretKey' in value "${bkavBaoTQSecretKey}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1330)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 66 common frames omitted
+2022-01-26 11:26:15,163 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 21139 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 11:26:15,165 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 11:26:15,166 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 11:26:17,689 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 11:26:17,825 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 11:26:18,892 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.019 seconds (JVM running for 4.362)
+2022-01-26 13:21:30,848 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 27577 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 13:21:30,855 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 13:21:30,856 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 13:21:34,027 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 13:21:34,195 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 13:21:35,358 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.923 seconds (JVM running for 5.384)
+2022-01-26 13:21:45,727 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-01-26 13:21:45,760 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-26 15:34:45,117 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 35971 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 15:34:45,120 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 15:34:45,121 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 15:34:48,383 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 15:34:48,559 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 15:34:49,633 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.998 seconds (JVM running for 6.081)
+2022-01-26 16:37:04,744 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 39578 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 16:37:04,764 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 16:37:04,765 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 16:37:08,467 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 16:37:08,660 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 16:37:09,864 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.951 seconds (JVM running for 7.005)
+2022-01-26 16:37:33,262 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 39723 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 16:37:33,265 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 16:37:33,266 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 16:37:36,314 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 16:37:36,446 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 16:37:37,448 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.577 seconds (JVM running for 4.978)
+2022-01-26 16:38:04,051 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-26 16:38:04,058 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-26 16:38:26,673 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-26 16:38:26,675 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-01-26 16:38:33,079 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-26 16:38:33,211 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-01-26 16:38:33,214 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-01-26 16:39:14,115 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 40054 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-26 16:39:14,118 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-26 16:39:14,119 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-26 16:39:17,427 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-26 16:39:17,580 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-26 16:39:18,672 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.033 seconds (JVM running for 5.425)
+2022-01-26 16:39:21,137 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,375 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,378 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,441 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,450 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,476 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,476 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,479 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-26 16:39:21,496 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,498 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,499 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-26 16:39:21,709 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,709 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-26 16:39:21,710 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-26 16:39:32,117 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-26 16:40:00,926 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-26 16:40:56,435 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-26 16:42:58,328 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-26 16:42:58,831 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-01-26 16:42:58,865 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log

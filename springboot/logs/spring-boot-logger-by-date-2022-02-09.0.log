@@ -1,0 +1,31 @@
+2022-02-09 15:01:03,985 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 15.0.2 on MinhLTe-PC with PID 39835 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master/springboot)
+2022-02-09 15:01:03,988 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 15:01:03,988 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 15:01:06,538 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 15:01:06,679 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 15:01:07,660 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2022-02-09 15:02:36,613 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 15.0.2 on MinhLTe-PC with PID 40101 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master/springboot)
+2022-02-09 15:02:36,616 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 15:02:36,616 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 15:02:38,629 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 15:02:38,727 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 15:02:39,733 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.478 seconds (JVM running for 3.981)
+2022-02-09 15:02:52,766 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 15:16:15,102 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 15:16:15,196 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 15:16:15,200 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 15:17:40,807 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 15:18:02,597 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required

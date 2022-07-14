@@ -1,0 +1,22 @@
+2022-01-21 08:08:12,451 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 10802 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-01-21 08:08:12,454 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-21 08:08:12,454 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-21 08:08:15,883 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-21 08:08:16,057 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-21 08:08:17,325 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.682 seconds (JVM running for 6.528)
+2022-01-21 08:47:46,902 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-21 08:47:47,489 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-01-21 08:47:47,541 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-21 08:48:08,146 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-21 08:48:19,520 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-21 08:48:19,543 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-4] get list category success page: 0 size: 100
+2022-01-21 08:48:19,549 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-21 08:48:32,007 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-21 08:48:32,026 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-5] insert demo success
+2022-01-21 08:48:32,033 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-21 08:49:02,284 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-01-21 08:49:05,980 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-21 08:49:06,027 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-21 08:49:17,656 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-21 08:49:17,685 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-8] delete success cate id: 1
+2022-01-21 08:49:17,692 INFO bkav.com.springboot.services.impl.DemoServiceImpl [http-nio-8888-exec-8] delete success activity log

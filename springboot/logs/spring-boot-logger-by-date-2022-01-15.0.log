@@ -1,0 +1,12 @@
+2022-01-15 11:08:14,626 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 38324 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-15 11:08:14,630 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-15 11:08:14,630 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-15 11:08:17,236 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-15 11:08:17,525 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-15 11:08:18,516 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.249 seconds (JVM running for 4.694)
+2022-01-15 11:24:23,193 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 40235 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-15 11:24:23,200 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-15 11:24:23,201 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-15 11:24:27,496 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-15 11:24:27,892 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-15 11:24:29,003 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.733 seconds (JVM running for 7.559)

@@ -1,0 +1,1123 @@
+2022-01-13 08:52:12,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 39172 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 08:52:12,420 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 08:52:12,420 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 08:52:15,749 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 08:52:16,101 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 08:52:17,310 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.287 seconds (JVM running for 5.775)
+2022-01-13 08:59:15,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 40756 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 08:59:15,819 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 08:59:15,819 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 08:59:18,596 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 08:59:18,874 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 08:59:19,926 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.497 seconds (JVM running for 5.196)
+2022-01-13 08:59:23,917 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 08:59:24,442 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-01-13 08:59:24,469 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-13 08:59:46,155 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 08:59:46,176 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-3] connect successfully!
+2022-01-13 09:09:24,913 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 42767 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:09:24,918 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:09:24,919 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:09:27,571 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:09:27,857 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:09:28,836 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.254 seconds (JVM running for 4.668)
+2022-01-13 09:09:41,323 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 09:09:41,408 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 09:10:47,490 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 09:10:47,535 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-5] connect successfully!
+2022-01-13 09:12:12,969 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 43625 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:12:12,977 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:12:12,977 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:12:15,915 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:12:16,209 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:12:17,218 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.698 seconds (JVM running for 5.061)
+2022-01-13 09:12:29,674 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 09:12:29,769 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 09:19:03,323 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 44475 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:19:03,327 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:19:03,327 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:19:05,933 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:19:06,206 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:19:07,155 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.178 seconds (JVM running for 4.542)
+2022-01-13 09:19:13,678 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 09:19:13,711 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 09:40:30,499 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 46929 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:40:30,502 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:40:30,503 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:40:33,242 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:40:33,517 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:40:34,494 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.316 seconds (JVM running for 4.702)
+2022-01-13 09:47:55,870 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 09:47:56,032 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 09:50:32,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 47467 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:50:32,479 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:50:32,480 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:50:35,236 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:50:35,604 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:50:36,645 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.546 seconds (JVM running for 4.98)
+2022-01-13 09:50:47,775 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 09:50:47,875 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: Test tạo bảng.csv
+2022-01-13 09:50:47,896 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 09:51:28,958 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 47689 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 09:51:28,961 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 09:51:28,961 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 09:51:33,049 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 09:51:33,411 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 09:51:34,621 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.993 seconds (JVM running for 6.431)
+2022-01-13 09:51:48,401 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 09:51:48,513 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang.csv
+2022-01-13 09:51:48,527 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 09:52:48,897 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 09:52:48,944 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-5] filename: test_tao_bang_3.csv
+2022-01-13 09:52:48,952 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-5] connect successfully!
+2022-01-13 09:54:15,230 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 09:54:20,416 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-01-13 09:54:20,776 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-01-13 09:54:20,804 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-01-13 09:54:38,253 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 09:54:45,954 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 09:54:56,554 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 10:02:37,376 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 48524 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:02:37,379 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:02:37,379 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:02:40,107 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:02:40,398 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:02:41,425 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.376 seconds (JVM running for 4.76)
+2022-01-13 10:02:52,110 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 10:11:43,866 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-13 10:13:58,425 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 49426 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:13:58,427 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:13:58,427 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:14:01,401 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:14:01,679 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:14:02,777 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.71 seconds (JVM running for 5.076)
+2022-01-13 10:14:17,097 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 49560 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:14:17,100 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:14:17,100 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:14:19,370 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:14:19,615 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:14:20,525 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.726 seconds (JVM running for 4.079)
+2022-01-13 10:14:35,647 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 10:14:45,746 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 10:15:38,128 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 10:15:38,747 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-01-13 10:15:38,771 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-13 10:15:56,691 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 10:15:56,718 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-5] filename: test_tao_bang.csv
+2022-01-13 10:15:56,731 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-5] connect successfully!
+2022-01-13 10:16:00,551 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-13 10:16:00,557 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] filename: test_tao_bang.csv
+2022-01-13 10:16:00,561 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-6] connect successfully!
+2022-01-13 10:27:09,949 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 53132 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:27:09,953 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:27:09,953 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:27:14,117 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:27:16,897 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:28:02,699 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 53.101 seconds (JVM running for 53.562)
+2022-01-13 10:43:13,618 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 5374 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:43:13,621 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:43:13,622 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:43:16,374 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:43:16,665 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:43:17,721 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.954 seconds (JVM running for 6.046)
+2022-01-13 10:43:21,613 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 10:46:58,964 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 5792 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:46:58,967 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:46:58,967 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:47:01,443 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:47:01,722 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:47:02,758 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.124 seconds (JVM running for 4.578)
+2022-01-13 10:47:06,880 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 10:48:24,730 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 5970 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:48:24,734 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:48:24,734 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:48:29,157 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:48:29,419 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:48:30,464 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.079 seconds (JVM running for 6.469)
+2022-01-13 10:48:39,233 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 10:50:40,104 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 6157 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:50:40,107 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:50:40,108 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:50:42,536 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:50:42,806 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:50:43,719 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.932 seconds (JVM running for 4.302)
+2022-01-13 10:51:00,815 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 10:51:00,859 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang.csv
+2022-01-13 10:51:00,863 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 10:52:20,880 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 10:52:20,929 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-5] code: 999
+2022-01-13 10:53:58,094 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 6770 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:53:58,098 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:53:58,099 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:54:00,664 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:54:00,923 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:54:01,860 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.137 seconds (JVM running for 4.533)
+2022-01-13 10:54:05,541 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 10:54:05,588 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-1] lsColumn `name`,`tuoi`,`level`,`parent_id`,`parent_name`
+2022-01-13 10:54:05,588 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-1] lsValue `Vannhg`,`23`,`0`,`0`,`Test tạo bảng`,`TestABC`,`22`,`0`,`1`,`Test tạo bảng`
+2022-01-13 10:54:05,618 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-1] code: 999
+2022-01-13 10:54:47,714 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 6918 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:54:47,718 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:54:47,718 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:54:50,042 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:54:50,286 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:54:51,194 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.817 seconds (JVM running for 4.189)
+2022-01-13 10:54:54,586 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 10:55:00,064 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 10:55:00,503 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] login success username: supper_admin
+2022-01-13 10:55:00,522 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-13 10:55:11,229 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-13 10:55:11,241 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] lsColumn `name`,`tuoi`,`level`,`parent_id`,`parent_name`
+2022-01-13 10:55:11,241 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] lsValue `Vannhg`,`23`,`0`,`0`,`Test tạo bảng`
+2022-01-13 10:55:11,268 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] code: 999
+2022-01-13 10:55:11,269 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] lsColumn `name`,`tuoi`,`level`,`parent_id`,`parent_name`
+2022-01-13 10:55:11,269 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] lsValue `TestABC`,`22`,`0`,`1`,`Test tạo bảng`
+2022-01-13 10:55:11,273 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-4] code: 999
+2022-01-13 10:57:16,937 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 7553 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 10:57:16,939 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 10:57:16,939 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 10:57:19,242 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 10:57:19,487 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 10:57:20,449 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.8 seconds (JVM running for 4.209)
+2022-01-13 10:57:26,628 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 10:57:27,073 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-01-13 10:57:27,089 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-13 10:58:39,348 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 10:58:53,118 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-13 10:58:53,128 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] lsColumn: `name`,`tuoi`,`level`,`parent_id`
+2022-01-13 10:58:53,128 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] lsValue: '123abc@A','23','1','1'
+2022-01-13 10:58:53,155 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] code: 0
+2022-01-13 10:58:53,156 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] insert category success
+2022-01-13 10:58:53,160 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-01-13 10:59:45,697 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-13 10:59:45,720 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] lsColumn: `name`,`tuoi`,`level`,`parent_id`,`parent_name`
+2022-01-13 10:59:45,721 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] lsValue: `Vannhg`,`23`,`0`,`0`,`Test tạo bảng`
+2022-01-13 10:59:45,724 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] code: 999
+2022-01-13 10:59:45,724 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] lsColumn: `name`,`tuoi`,`level`,`parent_id`,`parent_name`
+2022-01-13 10:59:45,725 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] lsValue: `TestABC`,`22`,`0`,`1`,`Test tạo bảng`
+2022-01-13 10:59:45,728 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-7] code: 999
+2022-01-13 11:00:27,120 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-13 11:00:27,124 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] lsColumn: `name`,`tuoi`,`level`,`parent_id`
+2022-01-13 11:00:27,124 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] lsValue: `Vannhg`,`23`,`0`,`0`
+2022-01-13 11:00:27,131 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] code: 999
+2022-01-13 11:00:27,132 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] lsColumn: `name`,`tuoi`,`level`,`parent_id`
+2022-01-13 11:00:27,132 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] lsValue: `TestABC`,`22`,`0`,`1`
+2022-01-13 11:00:27,135 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-8] code: 999
+2022-01-13 11:02:13,451 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 7821 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:02:13,455 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:02:13,455 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:02:15,891 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:02:16,148 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:02:17,222 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.096 seconds (JVM running for 4.432)
+2022-01-13 11:02:27,137 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 11:02:27,188 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] lsColumn: `name`,`tuoi`,`level`,`parent_id`
+2022-01-13 11:02:27,188 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] lsValue: 'Vannhg','23','0','0'
+2022-01-13 11:02:27,236 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] code: 0
+2022-01-13 11:02:27,236 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] lsColumn: `name`,`tuoi`,`level`,`parent_id`
+2022-01-13 11:02:27,236 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] lsValue: 'TestABC','22','0','1'
+2022-01-13 11:02:27,240 INFO bkav.com.springboot.services.impl.FileServiceImpl [http-nio-8888-exec-2] code: 0
+2022-01-13 11:04:17,428 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 8119 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:04:17,431 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:04:17,432 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:04:19,858 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:04:20,101 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:04:20,982 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.877 seconds (JVM running for 4.265)
+2022-01-13 11:04:33,073 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 11:04:33,115 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang.csv
+2022-01-13 11:04:33,119 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 11:24:16,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 9146 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:24:16,975 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:24:16,976 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:24:19,407 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:24:19,700 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:24:20,661 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.01 seconds (JVM running for 4.38)
+2022-01-13 11:24:24,689 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 11:24:28,571 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 11:24:39,072 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 11:25:04,512 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 9377 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:25:04,514 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:25:04,514 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:25:07,637 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:25:08,064 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:25:09,255 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.081 seconds (JVM running for 6.389)
+2022-01-13 11:25:13,322 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 11:25:13,814 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-01-13 11:25:13,834 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-13 11:25:30,498 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 11:25:30,509 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-3] filename: test_tao_bang.csv
+2022-01-13 11:25:33,769 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-3] connect successfully!
+2022-01-13 11:25:41,605 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at bkav.com.springboot.services.impl.FileServiceImpl.load(CSVServiceImpl.java:72)
+	at bkav.com.springboot.services.impl.CategoryServiceImpl.exportCSV(CategoryServiceImpl.java:325)
+	at bkav.com.springboot.controllers.CategoryController.exportCSV(CategoryController.java:80)
+	at bkav.com.springboot.controllers.CategoryController$$FastClassBySpringCGLIB$$3b5ce7c3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at bkav.com.springboot.controllers.CategoryController$$EnhancerBySpringCGLIB$$597135c3.exportCSV(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at bkav.com.springboot.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:61)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-13 11:25:46,505 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 9540 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:25:46,508 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:25:46,509 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:25:49,230 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:25:49,532 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:25:50,458 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.339 seconds (JVM running for 4.765)
+2022-01-13 11:25:52,064 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 11:25:52,108 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang.csv
+2022-01-13 11:25:52,112 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 11:25:52,130 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at bkav.com.springboot.services.impl.FileServiceImpl.load(CSVServiceImpl.java:72)
+	at bkav.com.springboot.services.impl.CategoryServiceImpl.exportCSV(CategoryServiceImpl.java:325)
+	at bkav.com.springboot.controllers.CategoryController.exportCSV(CategoryController.java:80)
+	at bkav.com.springboot.controllers.CategoryController$$FastClassBySpringCGLIB$$3b5ce7c3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at bkav.com.springboot.controllers.CategoryController$$EnhancerBySpringCGLIB$$c549dc88.exportCSV(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at bkav.com.springboot.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:61)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-13 11:27:28,836 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 9837 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 11:27:28,840 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 11:27:28,840 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 11:27:31,211 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 11:27:31,479 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 11:27:32,393 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.91 seconds (JVM running for 4.292)
+2022-01-13 11:27:37,943 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-13 11:27:37,987 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang.csv
+2022-01-13 11:27:37,992 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 13:20:29,927 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 14886 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:20:29,934 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:20:29,935 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:20:33,227 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:20:33,486 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:20:34,452 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.422 seconds (JVM running for 5.958)
+2022-01-13 13:21:02,100 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 13:21:02,550 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-01-13 13:21:02,574 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-13 13:21:12,339 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 13:21:12,350 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-3] filename: test_tao_bang.csv
+2022-01-13 13:21:12,356 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-3] connect successfully!
+2022-01-13 13:21:25,858 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-13 13:22:35,000 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-13 13:23:40,355 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 15943 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:23:40,358 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:23:40,358 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:23:43,300 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:23:43,631 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:23:44,813 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.798 seconds (JVM running for 5.219)
+2022-01-13 13:23:49,124 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-13 13:23:59,394 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 13:25:39,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 16279 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:25:39,599 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:25:39,599 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:25:42,596 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:25:42,953 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:25:44,352 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.074 seconds (JVM running for 5.418)
+2022-01-13 13:25:45,946 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:25:45,980 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:25:49,030 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 13:25:49,035 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:01,776 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 13:26:01,779 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:18,356 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 16554 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:26:18,359 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:26:18,360 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:26:20,725 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:26:20,984 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:26:21,922 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.89 seconds (JVM running for 4.236)
+2022-01-13 13:26:28,027 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:26:28,063 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:28,909 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 13:26:28,914 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:31,189 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 13:26:31,193 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:31,388 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 13:26:31,418 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:31,583 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-13 13:26:31,590 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:31,749 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-13 13:26:31,754 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:31,928 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-01-13 13:26:31,935 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:32,095 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-13 13:26:32,103 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:32,259 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-01-13 13:26:32,266 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:32,429 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-01-13 13:26:32,435 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:32,619 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:26:32,626 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:33,272 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 13:26:33,275 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:34,044 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 13:26:34,047 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:34,798 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 13:26:34,802 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:26:59,997 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-13 13:27:08,227 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-01-13 13:27:08,230 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:27:09,937 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-13 13:27:09,939 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:27:10,460 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-01-13 13:27:10,462 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 13:28:08,014 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 17299 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:28:08,016 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:28:08,016 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:28:10,683 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:28:10,954 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:28:11,868 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.177 seconds (JVM running for 4.557)
+2022-01-13 13:28:52,656 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 17581 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:28:52,659 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:28:52,659 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:28:55,852 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:28:56,101 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:28:57,215 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.022 seconds (JVM running for 5.716)
+2022-01-13 13:29:00,391 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:30:10,763 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 17987 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:30:10,766 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:30:10,766 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:30:13,361 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:30:13,621 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:30:14,564 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.256 seconds (JVM running for 4.719)
+2022-01-13 13:30:32,416 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 18126 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:30:32,418 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:30:32,419 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:30:35,032 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:30:35,282 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:30:36,242 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.224 seconds (JVM running for 4.705)
+2022-01-13 13:30:40,390 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:31:25,714 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 18368 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:31:25,722 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:31:25,723 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:31:28,198 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:31:28,497 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:31:29,532 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.359 seconds (JVM running for 4.894)
+2022-01-13 13:31:36,838 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:32:37,886 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 18708 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:32:37,889 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:32:37,890 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:32:40,905 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:32:41,039 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:32:42,061 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.683 seconds (JVM running for 5.169)
+2022-01-13 13:32:46,275 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:36:22,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 19605 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:36:22,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:36:22,894 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:36:26,024 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:36:26,345 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:36:27,308 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.758 seconds (JVM running for 5.099)
+2022-01-13 13:36:32,874 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:36:32,987 ERROR bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect failure!
+2022-01-13 13:40:44,056 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 19923 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:40:44,060 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:40:44,061 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:40:47,122 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:40:47,286 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:40:48,612 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.933 seconds (JVM running for 5.388)
+2022-01-13 13:45:06,697 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 20178 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:45:06,700 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:45:06,701 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:45:09,072 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:45:09,330 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:45:10,210 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.834 seconds (JVM running for 4.192)
+2022-01-13 13:45:18,045 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:45:18,194 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:48:33,616 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 21014 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:48:33,619 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:48:33,619 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:48:36,621 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:48:36,915 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:48:37,930 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.662 seconds (JVM running for 5.032)
+2022-01-13 13:48:42,501 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:48:42,610 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:49:28,122 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 21373 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:49:28,125 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:49:28,125 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:49:30,514 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:49:30,778 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:49:31,779 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.978 seconds (JVM running for 4.326)
+2022-01-13 13:49:33,374 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:49:33,488 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:51:57,084 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 21810 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:51:57,086 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:51:57,087 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:51:59,447 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:51:59,719 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:52:00,712 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.947 seconds (JVM running for 4.314)
+2022-01-13 13:52:04,694 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:52:04,793 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:52:32,488 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 22037 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:52:32,492 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:52:32,493 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:52:35,320 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:52:35,616 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:52:36,654 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.713 seconds (JVM running for 5.301)
+2022-01-13 13:52:40,801 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:52:49,030 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:53:02,986 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 22206 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:53:02,989 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:53:02,989 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:53:05,641 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:53:05,917 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:53:06,984 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.455 seconds (JVM running for 5.125)
+2022-01-13 13:53:12,753 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:53:18,980 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:53:58,172 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 22380 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:53:58,175 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:53:58,176 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:54:00,790 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:54:01,071 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:54:02,100 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.375 seconds (JVM running for 4.886)
+2022-01-13 13:54:05,764 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:54:05,861 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 13:54:19,193 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 13:54:19,197 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-3] connect successfully!
+2022-01-13 13:55:01,230 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 22654 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:55:01,234 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:55:01,234 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:55:04,153 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:55:04,462 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:55:05,484 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.762 seconds (JVM running for 5.508)
+2022-01-13 13:55:14,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 13:55:17,514 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 13:58:19,544 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 23065 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 13:58:19,549 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 13:58:19,549 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 13:58:21,891 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 13:58:22,136 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 13:58:23,083 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.897 seconds (JVM running for 4.242)
+2022-01-13 13:58:34,657 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 13:58:34,771 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:00:55,461 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 23541 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:00:55,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:00:55,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:00:58,547 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:00:58,828 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:00:59,796 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.703 seconds (JVM running for 5.157)
+2022-01-13 14:01:16,308 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:01:16,421 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:02:13,022 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 23829 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:02:13,026 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:02:13,027 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:02:15,467 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:02:15,754 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:02:16,700 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.002 seconds (JVM running for 4.37)
+2022-01-13 14:02:25,391 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:02:25,494 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:03:20,110 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 24046 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:03:20,112 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:03:20,113 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:03:22,713 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:03:22,960 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:03:23,851 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.087 seconds (JVM running for 4.468)
+2022-01-13 14:03:34,423 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:03:34,516 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:04:19,891 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 24318 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:04:19,895 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:04:19,895 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:04:22,629 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:04:22,902 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:04:23,823 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.27 seconds (JVM running for 4.733)
+2022-01-13 14:04:37,192 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:04:37,387 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:05:05,728 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 24547 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:05:05,732 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:05:05,732 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:05:08,193 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:05:08,470 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:05:09,399 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.108 seconds (JVM running for 4.495)
+2022-01-13 14:05:15,652 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:05:15,753 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:05:52,936 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 14:06:03,312 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 14:06:03,895 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-01-13 14:06:03,928 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-13 14:06:13,474 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-13 14:06:13,480 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-5] filename: test_tao_bang.csv
+2022-01-13 14:06:13,491 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-5] connect successfully!
+2022-01-13 14:10:27,404 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 25213 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:10:27,406 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:10:27,407 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:10:30,427 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:10:30,694 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:10:31,743 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.731 seconds (JVM running for 5.091)
+2022-01-13 14:10:33,012 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:10:33,109 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:11:37,232 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 25493 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:11:37,234 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:11:37,235 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:11:39,768 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:11:40,037 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:11:40,976 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.079 seconds (JVM running for 4.425)
+2022-01-13 14:11:46,739 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:11:46,858 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:13:12,576 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 25763 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:13:12,579 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:13:12,580 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:13:15,190 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:13:15,461 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:13:16,560 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.357 seconds (JVM running for 4.788)
+2022-01-13 14:13:18,636 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:13:18,727 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:13:58,643 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-13 14:13:58,694 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-3] filename: test_tao_bang.csv
+2022-01-13 14:13:58,700 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-3] connect successfully!
+2022-01-13 14:20:31,246 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 26463 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:20:31,248 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:20:31,248 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:20:33,924 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:20:34,204 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:20:35,154 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.237 seconds (JVM running for 4.604)
+2022-01-13 14:20:41,370 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:20:41,417 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:20:41,510 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:22:11,487 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 26764 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:22:11,491 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:22:11,492 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:22:14,377 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:22:14,687 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:22:15,704 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.572 seconds (JVM running for 5.049)
+2022-01-13 14:22:25,075 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:22:25,120 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:22:25,192 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:23:52,626 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 27085 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:23:52,629 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:23:52,630 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:23:55,495 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:23:55,786 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:23:56,767 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.463 seconds (JVM running for 4.822)
+2022-01-13 14:24:05,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:24:06,044 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:24:06,118 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:28:45,071 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 27777 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:28:45,076 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:28:45,076 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:28:49,093 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:28:49,442 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:28:50,914 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.254 seconds (JVM running for 6.718)
+2022-01-13 14:28:53,410 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:28:53,456 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:28:53,528 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:31:10,288 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 28252 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:31:10,291 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:31:10,291 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:31:12,976 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:31:13,236 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:31:14,214 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.241 seconds (JVM running for 4.639)
+2022-01-13 14:31:24,802 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:31:24,873 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:31:25,104 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:35:52,204 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 29240 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:35:52,207 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:35:52,207 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:35:55,046 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:35:55,335 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:35:56,329 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.486 seconds (JVM running for 4.894)
+2022-01-13 14:36:01,777 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:36:01,820 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:36:01,896 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:36:27,096 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 29497 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:36:27,099 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:36:27,099 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:36:29,641 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:36:29,920 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:36:30,921 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.18 seconds (JVM running for 4.573)
+2022-01-13 14:36:36,448 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:36:36,498 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:36:36,578 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:37:03,944 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 29723 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:37:03,946 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:37:03,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:37:06,495 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:37:06,770 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:37:07,754 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.159 seconds (JVM running for 4.521)
+2022-01-13 14:37:21,916 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:37:21,971 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:37:22,054 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:37:43,588 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 29977 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:37:43,592 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:37:43,593 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:37:46,170 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:37:46,453 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:37:47,417 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.147 seconds (JVM running for 4.522)
+2022-01-13 14:37:52,402 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:37:52,451 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:37:52,566 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:43:31,403 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 30947 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:43:31,406 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:43:31,407 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:43:34,181 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:43:34,485 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:43:35,488 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.453 seconds (JVM running for 4.868)
+2022-01-13 14:43:38,383 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:43:38,433 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:43:38,515 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:43:58,842 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 31195 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:43:58,845 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:43:58,846 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:44:01,471 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:44:01,744 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:44:02,770 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.261 seconds (JVM running for 4.637)
+2022-01-13 14:44:09,126 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:44:09,183 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:44:09,259 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:51:10,211 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 31823 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:51:10,218 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:51:10,218 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:51:13,599 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:51:13,983 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:51:15,125 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.379 seconds (JVM running for 5.849)
+2022-01-13 14:51:18,142 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:51:18,186 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:51:18,250 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:52:17,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 32067 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:52:17,892 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:52:17,892 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:52:20,534 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:52:20,808 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:52:21,719 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.156 seconds (JVM running for 4.557)
+2022-01-13 14:52:27,811 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:52:27,855 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:52:27,941 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:57:01,533 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 32670 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:57:01,537 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:57:01,537 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:57:04,126 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:57:04,400 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:57:05,387 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.195 seconds (JVM running for 4.555)
+2022-01-13 14:57:13,715 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:57:13,759 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:57:13,832 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 14:58:03,353 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 32911 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 14:58:03,356 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 14:58:03,356 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 14:58:05,899 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 14:58:06,164 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 14:58:07,152 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.167 seconds (JVM running for 4.821)
+2022-01-13 14:58:10,474 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 14:58:10,522 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 14:58:10,596 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:21:54,325 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 35046 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:21:54,328 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:21:54,329 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:21:57,237 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:21:57,537 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:21:58,515 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.535 seconds (JVM running for 4.916)
+2022-01-13 15:22:19,348 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:22:19,394 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:22:19,467 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:23:31,643 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 35321 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:23:31,646 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:23:31,647 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:23:33,990 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:23:34,231 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:23:35,114 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.783 seconds (JVM running for 4.122)
+2022-01-13 15:23:44,193 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:23:44,240 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:23:44,323 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:25:23,439 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 35577 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:25:23,442 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:25:23,442 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:25:26,041 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:25:26,323 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:25:27,215 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.076 seconds (JVM running for 4.485)
+2022-01-13 15:25:30,598 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:25:30,640 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:25:30,695 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:30:06,523 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 36164 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:30:06,527 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:30:06,528 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:30:08,999 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:30:09,267 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:30:10,225 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.074 seconds (JVM running for 4.47)
+2022-01-13 15:30:24,156 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:30:24,194 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:30:24,255 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:31:01,001 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 36401 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:31:01,005 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:31:01,006 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:31:03,351 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:31:03,593 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:31:04,464 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.778 seconds (JVM running for 4.105)
+2022-01-13 15:31:13,138 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:31:13,184 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:31:13,242 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:36:15,168 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 37300 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:36:15,171 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:36:15,172 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:36:18,589 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:36:19,009 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:36:20,202 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.507 seconds (JVM running for 5.95)
+2022-01-13 15:36:27,879 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:36:27,936 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:36:28,009 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:37:14,453 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 37573 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:37:14,456 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:37:14,456 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:37:16,978 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:37:17,288 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:37:18,272 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.166 seconds (JVM running for 4.559)
+2022-01-13 15:37:28,944 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:37:28,993 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:37:29,069 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:43:06,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 39032 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:43:06,261 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:43:06,261 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:43:08,895 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:43:09,181 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:43:10,265 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.327 seconds (JVM running for 4.691)
+2022-01-13 15:43:13,596 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:43:13,644 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:43:13,716 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:43:42,447 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 39650 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:43:42,450 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:43:42,451 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:43:45,109 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:43:45,366 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:43:46,548 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.439 seconds (JVM running for 4.785)
+2022-01-13 15:43:47,912 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:43:47,961 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:43:48,058 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:45:33,780 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 40041 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:45:33,783 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:45:33,783 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:45:36,706 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:45:37,006 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:45:37,960 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.536 seconds (JVM running for 4.991)
+2022-01-13 15:45:45,913 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:45:45,959 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:45:46,035 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:47:02,958 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 40307 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 15:47:02,960 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 15:47:02,960 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 15:47:06,222 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 15:47:06,533 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 15:47:07,859 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.234 seconds (JVM running for 5.58)
+2022-01-13 15:47:10,672 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 15:47:10,716 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 15:47:10,785 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 15:47:50,245 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 15:47:50,764 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] login success username: supper_admin
+2022-01-13 15:47:50,793 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-13 16:13:49,647 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 42290 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:13:49,651 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:13:49,652 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:13:52,180 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:13:52,459 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:13:53,495 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.177 seconds (JVM running for 4.567)
+2022-01-13 16:13:59,832 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:14:00,068 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:14:00,070 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:14:13,799 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 16:14:13,845 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 16:14:13,846 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:14:19,215 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-13 16:14:19,303 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-13 16:14:19,303 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:15:16,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 42744 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:15:16,635 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:15:16,636 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:15:19,188 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:15:19,447 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:15:20,367 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.033 seconds (JVM running for 4.372)
+2022-01-13 16:15:27,785 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:15:28,080 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:15:28,082 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:16:21,540 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 42983 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:16:21,544 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:16:21,545 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:16:23,886 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:16:24,138 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:16:25,036 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.807 seconds (JVM running for 4.161)
+2022-01-13 16:16:31,492 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:16:31,665 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:16:31,668 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:17:29,226 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 43164 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:17:29,230 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:17:29,230 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:17:31,560 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:17:31,803 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:17:32,726 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.819 seconds (JVM running for 4.142)
+2022-01-13 16:17:37,498 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:17:37,689 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:17:37,691 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:17:38,938 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 16:17:38,978 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 16:17:38,978 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:18:00,880 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 43343 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:18:00,882 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:18:00,883 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:18:03,726 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:18:04,010 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:18:04,987 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.447 seconds (JVM running for 4.844)
+2022-01-13 16:18:09,530 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:18:09,705 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:18:09,707 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:18:11,794 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-01-13 16:18:11,828 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 16:18:11,829 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:18:15,305 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-01-13 16:18:15,346 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-13 16:18:15,347 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-01-13 16:20:38,662 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 43731 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:20:38,666 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:20:38,667 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:20:40,959 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:20:41,202 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:20:42,074 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.764 seconds (JVM running for 4.105)
+2022-01-13 16:20:47,321 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:20:47,370 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:20:47,444 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:23:33,440 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 45594 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:23:33,443 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:23:33,443 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:23:35,979 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:23:36,265 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:23:37,262 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.148 seconds (JVM running for 4.503)
+2022-01-13 16:23:47,644 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:23:47,687 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:23:47,753 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:24:30,630 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 45806 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:24:30,633 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:24:30,633 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:24:33,353 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:24:33,624 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:24:34,696 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.42 seconds (JVM running for 4.773)
+2022-01-13 16:25:58,178 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:25:58,223 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:25:58,286 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:27:01,300 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 46215 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:27:01,303 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:27:01,304 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:27:04,483 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:27:04,773 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:27:05,791 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.98 seconds (JVM running for 5.579)
+2022-01-13 16:27:09,600 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:27:09,649 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:27:09,717 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:27:43,191 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 46444 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:27:43,194 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:27:43,194 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:27:45,502 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:27:45,756 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:27:46,714 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.812 seconds (JVM running for 4.154)
+2022-01-13 16:27:55,042 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:27:55,085 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:27:55,145 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:43:06,937 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 48546 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:43:06,940 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:43:06,940 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:43:09,760 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:43:10,065 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:43:11,053 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.443 seconds (JVM running for 4.814)
+2022-01-13 16:43:15,126 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:43:15,169 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:43:15,247 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:43:50,368 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-13 16:43:50,376 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-2] filename: test_tao_bang
+2022-01-13 16:43:50,379 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-2] connect successfully!
+2022-01-13 16:44:07,601 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 48823 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 16:44:07,607 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 16:44:07,608 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 16:44:10,515 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 16:44:10,789 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 16:44:11,733 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.59 seconds (JVM running for 5.071)
+2022-01-13 16:44:15,953 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 16:44:16,001 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 16:44:16,075 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!
+2022-01-13 16:49:02,413 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-13 16:49:02,477 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-4] filename: test_tao_bang
+2022-01-13 16:49:02,483 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-4] connect successfully!
+2022-01-13 16:50:07,994 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-01-13 16:50:08,002 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-7] filename: test_tao_bang
+2022-01-13 16:50:08,005 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-7] connect successfully!
+2022-01-13 17:02:01,145 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 50120 (/home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/dmdc_new/back-end/springboot)
+2022-01-13 17:02:01,147 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-13 17:02:01,148 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-13 17:02:03,739 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-13 17:02:04,025 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-13 17:02:04,982 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.245 seconds (JVM running for 4.799)
+2022-01-13 17:02:35,796 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-01-13 17:02:35,833 INFO bkav.com.springboot.services.impl.CategoryServiceImpl [http-nio-8888-exec-1] filename: test_tao_bang
+2022-01-13 17:02:35,900 INFO bkav.com.springboot.helper.ConnectDB [http-nio-8888-exec-1] connect successfully!

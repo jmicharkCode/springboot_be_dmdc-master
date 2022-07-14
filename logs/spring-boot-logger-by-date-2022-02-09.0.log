@@ -1,0 +1,1013 @@
+2022-02-09 08:46:54,088 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 10657 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 08:46:54,095 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 08:46:54,096 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 08:46:57,760 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 08:46:57,925 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 08:46:59,284 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.619 seconds (JVM running for 6.154)
+2022-02-09 09:27:30,684 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,735 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,735 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,735 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,736 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,737 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,914 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,919 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,988 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 09:27:30,995 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,026 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,026 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,029 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 09:27:31,047 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,049 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,051 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 09:27:31,282 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,282 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 09:27:31,282 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 09:27:34,573 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 09:27:38,900 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 09:28:01,086 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 09:28:01,728 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] login success username: hieuvd
+2022-02-09 09:28:01,783 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-02-09 09:28:01,828 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 09:30:34,374 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 09:30:34,389 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-7] Access is denied
+2022-02-09 09:31:17,276 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-5] login success username: supper_admin
+2022-02-09 09:31:17,283 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-02-09 09:31:29,939 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 09:31:29,987 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] get list page success page: 0 size: 100
+2022-02-09 09:31:29,994 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-02-09 09:52:32,409 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 09:52:32,569 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] login success username: hieuvd
+2022-02-09 09:52:32,577 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] insert success activity log
+2022-02-09 11:34:17,513 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 11:34:17,604 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:34:26,365 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-02-09 11:34:26,416 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-02-09 11:34:46,584 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-02-09 11:34:46,614 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-5] ./fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 11:35:20,770 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 23657 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 11:35:20,773 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 11:35:20,773 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 11:35:23,985 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 11:35:24,168 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 11:35:25,284 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.899 seconds (JVM running for 5.426)
+2022-02-09 11:35:30,377 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-02-09 11:35:30,400 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] ./fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 11:35:43,464 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 11:35:43,498 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:26,729 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 11:37:26,730 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:35,052 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,111 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,316 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,342 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,350 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,383 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,383 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,386 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:35,429 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,430 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,431 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:35,647 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,647 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 11:37:35,647 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 11:37:37,975 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 11:37:40,081 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 11:37:43,824 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 11:37:43,826 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:53,517 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 11:37:53,518 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:37:59,894 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 11:37:59,895 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:38:05,846 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 11:38:05,848 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:39:04,161 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 11:39:04,561 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: hieuvd
+2022-02-09 11:39:04,596 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-02-09 11:39:04,642 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 11:39:30,304 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 11:39:30,305 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 11:42:59,133 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-02-09 11:43:09,021 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-02-09 11:43:09,027 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-02-09 11:43:22,081 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-02-09 11:51:04,409 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 25007 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 11:51:04,421 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 11:51:04,423 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 11:51:08,515 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 11:51:08,821 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 11:51:10,053 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.054 seconds (JVM running for 6.516)
+2022-02-09 11:51:36,957 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 11:54:31,884 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 25430 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 11:54:31,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 11:54:31,894 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 11:54:35,175 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 11:54:35,354 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 11:54:37,006 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.555 seconds (JVM running for 6.071)
+2022-02-09 11:54:40,208 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-02-09 11:54:45,165 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 11:54:45,172 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 13:31:34,583 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 31000 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:31:34,594 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:31:34,596 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:31:38,121 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:31:38,310 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:31:38,721 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageService.<init>(FileStorageService.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 13:40:37,304 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 31546 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:40:37,311 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:40:37,312 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:40:40,552 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:40:40,726 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:40:41,112 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageService.<init>(FileStorageService.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 13:50:04,298 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 31899 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:50:04,303 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:50:04,304 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:50:07,558 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:50:07,725 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:50:08,132 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:17
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 13:50:41,089 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 32004 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:50:41,094 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:50:41,096 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:50:44,341 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:50:44,510 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:50:44,919 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageServiceImpl.<init>(FileStorageServiceImpl.java:28)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 13:50:57,113 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 32122 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:50:57,118 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:50:57,119 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:51:00,885 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:51:01,083 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:51:01,529 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:17
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 13:54:29,330 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 32346 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 13:54:29,333 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 13:54:29,334 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 13:54:33,997 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 13:54:34,249 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 13:54:34,736 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: 
+    Origin: class path resource [application.properties] - 29:16
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 14:00:06,230 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 32965 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:00:06,236 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:00:06,237 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:00:10,477 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:00:10,637 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:00:11,037 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageServiceImpl.<init>(FileStorageServiceImpl.java:28)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 14:02:04,509 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33145 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:02:04,513 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:02:04,513 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:02:07,309 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:02:07,456 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:02:07,829 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageServiceImpl.<init>(FileStorageServiceImpl.java:28)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 14:02:23,412 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33242 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:02:23,415 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:02:23,416 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:02:26,072 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:02:26,212 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:02:26,580 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:16
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 14:03:02,948 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33343 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:03:02,950 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:03:02,951 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:03:05,413 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:03:05,545 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:03:05,912 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageServiceImpl.<init>(FileStorageServiceImpl.java:28)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 14:04:12,936 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33470 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:04:12,940 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:04:12,941 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:04:16,071 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:04:16,238 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:04:16,743 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:16
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 14:05:01,545 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33571 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:05:01,552 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:05:01,553 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:05:04,795 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:05:04,957 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:05:05,375 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileDownloadController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageServiceImpl' defined in file [/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes/bkav/com/springboot/services/impl/FileStorageServiceImpl.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [bkav.com.springboot.services.impl.FileStorageServiceImpl]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 33 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at bkav.com.springboot.services.impl.FileStorageServiceImpl.<init>(FileStorageServiceImpl.java:28)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+2022-02-09 14:05:22,494 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 33665 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:05:22,500 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:05:22,501 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:05:26,073 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:05:26,246 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:05:26,619 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:16
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 14:13:08,458 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 34025 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:13:08,460 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:13:08,461 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:13:11,304 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:13:11,456 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:13:11,847 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'file' to bkav.com.springboot.models.property.FileStorageProperties:
+
+    Property: file.upload-dir
+    Value: ./uploads
+    Origin: class path resource [application.properties] - 29:16
+    Reason: java.lang.IllegalStateException: No setter found for property: upload-dir
+
+Action:
+
+Update your application's configuration
+
+2022-02-09 14:13:23,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 34125 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:13:23,459 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:13:23,460 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:13:26,832 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:13:27,027 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:13:28,257 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.367 seconds (JVM running for 5.93)
+2022-02-09 14:14:27,595 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 34272 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:14:27,602 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:14:27,603 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:14:30,459 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:14:30,614 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:14:31,703 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.484 seconds (JVM running for 4.972)
+2022-02-09 14:14:35,806 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-02-09 14:14:35,837 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-02-09 14:15:33,350 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-02-09 14:15:33,355 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] Request method 'GET' not supported
+2022-02-09 14:17:06,804 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-02-09 14:17:06,807 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-6] Current request is not a multipart request
+2022-02-09 14:18:41,048 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 34659 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:18:41,052 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:18:41,053 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:18:43,566 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:18:43,700 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:18:44,659 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.947 seconds (JVM running for 4.345)
+2022-02-09 14:18:52,078 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 14:18:52,094 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] Current request is not a multipart request
+2022-02-09 14:20:30,165 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-02-09 14:20:30,180 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-5] null
+2022-02-09 14:21:33,321 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-02-09 14:21:33,324 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-8] null
+2022-02-09 14:21:38,121 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-02-09 14:22:06,181 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-02-09 14:22:06,184 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-10] null
+2022-02-09 14:22:20,719 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-02-09 14:22:30,695 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 14:22:30,699 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] null
+2022-02-09 14:24:15,353 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 35016 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:24:15,358 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:24:15,358 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:24:18,170 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:24:18,495 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:24:19,612 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.739 seconds (JVM running for 5.106)
+2022-02-09 14:26:24,561 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 35504 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:26:24,564 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:26:24,564 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:26:27,062 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:26:27,197 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:26:28,161 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.889 seconds (JVM running for 4.268)
+2022-02-09 14:26:48,807 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 14:26:48,836 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] No converter for [class java.io.File] with preset Content-Type 'application/csv'
+2022-02-09 14:28:24,935 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 35745 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:28:24,938 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:28:24,939 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:28:27,881 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:28:28,058 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:28:29,128 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.645 seconds (JVM running for 5.082)
+2022-02-09 14:28:29,368 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,459 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,459 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,460 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,460 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,460 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,654 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,656 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,720 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,765 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,883 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,901 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,905 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:28:29,957 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,995 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:28:29,999 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:28:30,416 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:28:30,416 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:28:30,416 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:28:34,880 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:28:37,966 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:28:42,510 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:28:42,511 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:29:18,329 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:29:18,330 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:29:55,028 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:29:55,561 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] login success username: hieuvd
+2022-02-09 14:29:55,583 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-02-09 14:29:55,631 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:30:43,325 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:30:43,326 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:31:07,429 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:31:07,430 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:32:16,956 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 36088 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:32:16,959 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:32:16,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:32:19,537 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:32:19,671 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:32:20,667 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.025 seconds (JVM running for 4.391)
+2022-02-09 14:32:23,925 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:32:23,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:32:23,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:32:23,978 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:32:23,978 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:32:23,982 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,175 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,176 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,241 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,252 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,285 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,285 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,289 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:32:24,300 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,314 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,315 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:32:24,562 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,562 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,562 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:32:24,562 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:32:59,975 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:33:16,389 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-02-09 14:33:31,054 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:33:48,488 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:33:48,860 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] login success username: hieuvd
+2022-02-09 14:33:48,889 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-02-09 14:34:11,279 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-02-09 14:34:18,835 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-02-09 14:34:21,956 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-02-09 14:34:21,969 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] null
+2022-02-09 14:34:38,462 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:34:38,463 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:36:52,033 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:36:52,034 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:36:56,965 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:36:56,967 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:36:58,409 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:36:58,409 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:37:03,482 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:37:03,483 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:45:12,601 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 37210 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:45:12,614 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:45:12,616 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:45:16,884 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:45:17,115 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:45:18,592 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.67 seconds (JVM running for 7.355)
+2022-02-09 14:45:21,213 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,295 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,295 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,297 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,297 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,299 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,499 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,508 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,577 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,587 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,622 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,623 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,627 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:45:21,638 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,656 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,658 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:45:21,910 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,916 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:45:21,922 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:45:23,393 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:46:56,938 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 37401 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:46:56,941 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:46:56,941 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:46:59,776 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:46:59,960 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:47:00,970 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.538 seconds (JVM running for 5.245)
+2022-02-09 14:47:34,834 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 37540 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:47:34,837 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:47:34,837 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:47:37,454 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:47:37,872 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:47:38,936 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.645 seconds (JVM running for 5.062)
+2022-02-09 14:47:49,086 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 37674 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:47:49,091 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:47:49,092 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:47:52,092 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:47:52,240 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:47:53,321 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.691 seconds (JVM running for 5.087)
+2022-02-09 14:47:55,809 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:47:55,870 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:47:55,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:47:55,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:47:55,877 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:47:55,878 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,076 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,077 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,142 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,149 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,180 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,181 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,188 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:47:56,192 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,214 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,216 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:47:56,478 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,477 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,477 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:47:56,478 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:48:05,868 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:48:29,929 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:48:30,467 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-02-09 14:48:30,497 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-02-09 14:48:30,547 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:48:57,502 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:48:57,503 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:49:32,585 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 37844 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:49:32,587 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:49:32,588 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:49:35,197 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:49:35,334 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:49:36,359 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.158 seconds (JVM running for 4.61)
+2022-02-09 14:49:42,316 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:49:42,343 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 14:51:45,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 38118 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:51:45,479 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:51:45,480 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:51:48,183 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:51:48,338 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:51:49,474 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.368 seconds (JVM running for 4.897)
+2022-02-09 14:52:00,450 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:52:00,467 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 14:53:25,332 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 38311 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:53:25,336 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:53:25,336 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:53:28,305 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:53:28,576 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:53:29,753 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.794 seconds (JVM running for 5.247)
+2022-02-09 14:53:32,690 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:53:32,708 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 14:53:34,000 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:53:34,001 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] fileexcel/excel-template.xlsx (No such file or directory)
+2022-02-09 14:55:45,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 38951 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:55:45,959 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:55:45,960 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:55:49,275 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:55:49,445 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:55:50,560 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.948 seconds (JVM running for 5.44)
+2022-02-09 14:55:57,567 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:55:58,086 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: hieuvd
+2022-02-09 14:55:58,112 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-02-09 14:56:06,613 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,816 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,877 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:56:09,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,068 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,081 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,106 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,116 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,149 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,149 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,151 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:56:10,155 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,177 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,179 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-02-09 14:56:10,397 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,397 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:56:10,397 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:56:14,489 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:56:16,706 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:56:34,732 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:56:34,910 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] login success username: supper_admin
+2022-02-09 14:56:34,919 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] insert success activity log
+2022-02-09 14:56:34,955 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-09 14:56:59,571 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:56:59,575 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:03,806 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:57:03,808 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-6] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:25,619 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 39175 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:57:25,621 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:57:25,621 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:57:28,343 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:57:28,493 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:57:29,574 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.275 seconds (JVM running for 4.818)
+2022-02-09 14:57:30,849 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:57:30,866 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:31,976 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:57:31,978 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:32,773 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:57:32,774 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:33,223 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-09 14:57:33,224 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-4] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:36,586 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-09 14:57:36,587 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-6] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:37,067 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-09 14:57:37,069 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-7] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:57:37,463 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-09 14:57:37,464 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-8] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:59:19,331 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 39514 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-09 14:59:19,333 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-09 14:59:19,334 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-09 14:59:22,197 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-09 14:59:22,338 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-09 14:59:23,363 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.443 seconds (JVM running for 4.861)
+2022-02-09 14:59:26,549 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-09 14:59:26,566 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:59:27,641 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-09 14:59:27,642 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:59:28,220 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-09 14:59:28,221 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] file/excel-template.xlsx (No such file or directory)
+2022-02-09 14:59:37,001 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-09 14:59:37,005 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-5] file/excel-template.xlsx (No such file or directory)

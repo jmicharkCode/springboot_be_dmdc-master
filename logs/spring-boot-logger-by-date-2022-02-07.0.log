@@ -1,0 +1,35 @@
+2022-02-07 08:44:11,898 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on MinhLTe-PC with PID 22123 (/home/minhlte/Downloads/springboot_be_dmdc-master/springboot/target/classes started by minhlte in /home/minhlte/Downloads/springboot_be_dmdc-master)
+2022-02-07 08:44:11,902 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-02-07 08:44:11,902 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-07 08:44:14,391 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-02-07 08:44:14,523 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-02-07 08:44:15,491 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.003 seconds (JVM running for 4.519)
+2022-02-07 08:45:20,296 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,353 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,367 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,368 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,368 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,368 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,567 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,570 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,629 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,641 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,669 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,669 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,671 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-02-07 08:45:20,696 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,698 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,702 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-02-07 08:45:20,929 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,929 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-02-07 08:45:20,929 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-02-07 08:45:23,967 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-02-07 08:45:35,855 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-02-07 08:51:44,256 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-02-07 08:51:44,407 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] ipAddress: 0:0:0:0:0:0:0:1
+2022-02-07 08:51:44,416 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] session: 48AFF1BF16626EDDFF5CF1F245C454F9
+2022-02-07 08:51:44,430 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] count ipAddress: 1
+2022-02-07 08:51:44,434 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] ipAddress time expire: 899
+2022-02-07 08:51:44,436 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] count session id: 1
+2022-02-07 08:51:44,438 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] session id time expire: 899
+2022-02-07 08:51:44,497 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required

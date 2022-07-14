@@ -1,0 +1,387 @@
+2022-01-08 08:46:32,807 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 44467 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 08:46:32,813 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 08:46:32,814 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 08:46:35,808 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 08:46:36,143 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 08:46:37,127 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.673 seconds (JVM running for 5.098)
+2022-01-08 08:50:30,090 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 08:50:30,132 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 08:50:40,184 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-7] login success username: supper_admin
+2022-01-08 08:50:40,243 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 08:50:40,671 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 08:50:40,689 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-2] get list permission success page: 0 size: 20
+2022-01-08 08:50:40,695 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 08:50:42,621 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 08:50:42,632 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] get list page success page: 0 size: 100
+2022-01-08 08:50:42,636 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-08 08:50:50,158 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 08:50:50,231 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] delete success page id: 14
+2022-01-08 08:50:50,237 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] delete success activity log
+2022-01-08 08:50:50,423 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 08:50:50,438 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] get list page success page: 0 size: 100
+2022-01-08 08:50:50,448 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-08 08:50:52,366 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:50:52,429 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] delete success page id: 13
+2022-01-08 08:50:52,434 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] delete success activity log
+2022-01-08 08:50:52,598 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-08 08:50:52,614 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-8] get list page success page: 0 size: 100
+2022-01-08 08:50:52,622 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-8] insert success activity log
+2022-01-08 08:50:55,168 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 08:50:55,180 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] delete success page id: 11
+2022-01-08 08:50:55,185 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] delete success activity log
+2022-01-08 08:50:55,332 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 08:50:55,345 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] get list page success page: 0 size: 100
+2022-01-08 08:50:55,356 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 08:50:58,118 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:50:58,127 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] delete success page id: 10
+2022-01-08 08:50:58,133 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] delete success activity log
+2022-01-08 08:50:58,269 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 08:50:58,275 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] get list page success page: 0 size: 100
+2022-01-08 08:50:58,282 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 08:51:00,817 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 08:51:00,838 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] delete success page id: 9
+2022-01-08 08:51:00,851 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] delete success activity log
+2022-01-08 08:51:00,974 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:51:00,985 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] get list page success page: 0 size: 100
+2022-01-08 08:51:00,997 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 08:51:03,072 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 08:51:03,078 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] delete success page id: 8
+2022-01-08 08:51:03,082 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] delete success activity log
+2022-01-08 08:51:03,194 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 08:51:03,204 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] get list page success page: 0 size: 100
+2022-01-08 08:51:03,208 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-01-08 08:51:04,985 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 08:51:05,033 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-3] Cannot delete or update a parent row: a foreign key constraint fails (`SpringSecurity`.`RoleGroupPage`, CONSTRAINT `RoleGroupPage_ibfk_1` FOREIGN KEY (`PageId`) REFERENCES `Pages` (`Id`))
+2022-01-08 08:51:05,043 ERROR bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] error: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-01-08 08:51:05,176 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:51:05,188 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] get list page success page: 0 size: 100
+2022-01-08 08:51:05,201 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:51:07,038 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 08:51:07,044 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-5] Cannot delete or update a parent row: a foreign key constraint fails (`SpringSecurity`.`RoleGroupPage`, CONSTRAINT `RoleGroupPage_ibfk_1` FOREIGN KEY (`PageId`) REFERENCES `Pages` (`Id`))
+2022-01-08 08:51:07,046 ERROR bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] error: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-01-08 08:51:07,178 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 08:51:07,181 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] get list page success page: 0 size: 100
+2022-01-08 08:51:07,185 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-01-08 08:51:09,454 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:51:09,461 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-7] Cannot delete or update a parent row: a foreign key constraint fails (`SpringSecurity`.`RoleGroupPage`, CONSTRAINT `RoleGroupPage_ibfk_1` FOREIGN KEY (`PageId`) REFERENCES `Pages` (`Id`))
+2022-01-08 08:51:09,462 ERROR bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] error: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-01-08 08:51:09,586 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-08 08:51:09,596 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-8] get list page success page: 0 size: 100
+2022-01-08 08:51:09,606 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-8] insert success activity log
+2022-01-08 08:51:46,073 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 08:51:46,078 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-9] get list permission success page: 0 size: 20
+2022-01-08 08:51:46,122 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 08:51:54,137 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 08:51:54,140 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] get list page success page: 0 size: 100
+2022-01-08 08:51:54,184 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-01-08 08:52:07,710 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 08:52:07,721 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] insert success page name: admin
+2022-01-08 08:52:07,725 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-08 08:52:07,838 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:52:07,846 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] get list page success page: 0 size: 100
+2022-01-08 08:52:07,849 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:52:15,978 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 08:52:15,982 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] get list page success page: 0 size: 100
+2022-01-08 08:52:15,985 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 08:52:16,237 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:52:16,247 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] get list page success page: 0 size: 100
+2022-01-08 08:52:16,256 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 08:53:08,684 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-01-08 08:53:08,760 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-9] login success username: supper_admin
+2022-01-08 08:53:08,767 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 08:53:17,601 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:53:17,604 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] get list page success page: 0 size: 100
+2022-01-08 08:53:17,608 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:53:30,056 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 08:53:30,064 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] get list page success page: 0 size: 100
+2022-01-08 08:53:30,070 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-08 08:54:48,930 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 08:54:48,941 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] get list page success page: 0 size: 100
+2022-01-08 08:54:48,951 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 08:55:46,468 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:55:46,478 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] get list page success page: 0 size: 100
+2022-01-08 08:55:46,489 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 08:55:47,871 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 08:55:47,887 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] delete success page id: 20
+2022-01-08 08:55:47,893 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] delete success activity log
+2022-01-08 08:55:48,034 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 08:55:48,041 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] get list page success page: 0 size: 100
+2022-01-08 08:55:48,048 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-01-08 08:56:19,327 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 08:56:19,344 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] insert success page name: admin
+2022-01-08 08:56:19,353 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 08:56:19,614 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 08:56:19,622 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] get list page success page: 0 size: 100
+2022-01-08 08:56:19,629 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-08 08:56:42,622 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:56:42,625 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] get list page success page: 0 size: 100
+2022-01-08 08:56:42,629 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:56:56,792 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 08:56:56,802 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] get list page success page: 0 size: 100
+2022-01-08 08:56:56,812 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-08 08:56:56,997 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 08:56:57,000 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] get list page success page: 0 size: 100
+2022-01-08 08:56:57,004 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 08:56:59,398 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 08:57:04,994 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 08:57:04,999 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] insert success page name: page sale4
+2022-01-08 08:57:05,003 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-01-08 08:57:16,442 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 08:57:16,454 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] get list page success page: 0 size: 100
+2022-01-08 08:57:16,465 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 08:57:16,732 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 08:57:16,741 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] get list page success page: 0 size: 100
+2022-01-08 08:57:16,752 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-01-08 08:58:32,029 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 08:58:32,032 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] get list page success page: 0 size: 100
+2022-01-08 08:58:32,036 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 08:58:32,273 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:58:32,278 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] get list page success page: 0 size: 100
+2022-01-08 08:58:32,283 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:58:40,544 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 46553 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 08:58:40,559 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 08:58:40,560 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 08:58:43,352 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 08:58:43,636 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 08:58:44,648 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.71 seconds (JVM running for 5.176)
+2022-01-08 08:58:45,075 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 08:58:45,127 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-1] get list permission success page: 0 size: 20
+2022-01-08 08:58:45,161 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-01-08 08:58:45,798 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 08:58:45,807 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] get list page success page: 0 size: 100
+2022-01-08 08:58:45,811 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 08:58:47,011 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 08:58:47,017 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-3] get list permission success page: 0 size: 20
+2022-01-08 08:58:47,022 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-08 08:58:49,690 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 08:58:49,695 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] get list page success page: 0 size: 100
+2022-01-08 08:58:49,700 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 09:00:42,830 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 09:00:42,839 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] get list page success page: 0 size: 100
+2022-01-08 09:00:42,845 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-01-08 09:00:43,064 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 09:00:43,074 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] get list page success page: 0 size: 100
+2022-01-08 09:00:43,082 INFO bkav.com.springboot.services.ipml.PageServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 10:49:49,472 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 50978 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 10:49:49,475 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 10:49:49,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 10:49:52,386 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 10:49:52,728 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 10:49:53,690 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.558 seconds (JVM running for 4.969)
+2022-01-08 10:53:16,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 51227 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 10:53:16,524 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 10:53:16,525 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 10:53:18,906 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 10:53:19,163 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 10:53:20,145 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.336 seconds (JVM running for 4.735)
+2022-01-08 10:53:33,830 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-08 10:53:34,205 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-01-08 10:53:34,222 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 10:54:04,780 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 10:54:04,818 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-3] Field 'CreateTime' doesn't have a default value
+2022-01-08 10:54:04,827 ERROR bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-3] error: could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement
+2022-01-08 10:55:06,634 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 10:55:06,642 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8888-exec-5] Field 'CreateTime' doesn't have a default value
+2022-01-08 10:55:06,644 ERROR bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-5] error: could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement
+2022-01-08 10:56:38,793 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 10:56:38,805 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-7] insert success role name: ROLE_TES123111511T
+2022-01-08 10:56:38,810 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 10:57:30,837 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 51679 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 10:57:30,840 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 10:57:30,840 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 10:57:33,649 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 10:57:33,900 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 10:57:34,799 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.282 seconds (JVM running for 4.644)
+2022-01-08 11:21:58,021 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 52548 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:21:58,025 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:21:58,026 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:22:01,179 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:22:01,580 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:22:02,953 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.508 seconds (JVM running for 6.08)
+2022-01-08 11:22:32,540 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:22:47,357 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 11:22:47,428 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-3] update success role name: ROLE_MANAGER2
+2022-01-08 11:22:47,444 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-3] update success activity log
+2022-01-08 11:23:04,615 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:23:04,647 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-4] get list role success page: 0 size: 2
+2022-01-08 11:23:04,672 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 11:23:24,800 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 11:23:24,808 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-5] get list role success page: 0 size: 3
+2022-01-08 11:23:24,814 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-08 11:23:44,285 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 11:23:44,305 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-6] delete success role id: 6
+2022-01-08 11:23:44,309 INFO bkav.com.springboot.services.ipml.RoleServiceImpl [http-nio-8888-exec-6] delete success activity log
+2022-01-08 11:23:57,927 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 11:23:57,951 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-7] get list permission success page: 0 size: 2
+2022-01-08 11:23:57,956 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 11:24:22,780 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-08 11:24:22,791 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-8] insert success permission name: ADMIN111
+2022-01-08 11:24:22,795 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-8] insert success activity log
+2022-01-08 11:25:00,951 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:25:04,775 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 11:25:04,795 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-10] update success permission name: ADMIN2
+2022-01-08 11:25:04,799 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-10] update success activity log
+2022-01-08 11:25:18,336 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:25:18,347 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-1] delete success permission id: 15
+2022-01-08 11:25:18,352 INFO bkav.com.springboot.services.ipml.PermissionServiceImpl [http-nio-8888-exec-1] delete success activity log
+2022-01-08 11:25:33,009 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:27:19,205 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:27:41,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 53238 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:27:41,435 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:27:41,436 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:27:44,271 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:27:44,577 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:27:45,619 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.736 seconds (JVM running for 5.306)
+2022-01-08 11:27:48,129 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:28:10,682 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 53406 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:28:10,687 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:28:10,687 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:28:13,300 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:28:13,543 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:28:14,444 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.142 seconds (JVM running for 4.549)
+2022-01-08 11:28:44,423 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:29:08,399 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-08 11:29:08,665 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-01-08 11:29:08,684 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 11:29:17,911 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 11:29:29,136 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 11:30:33,900 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 53728 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:30:33,903 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:30:33,904 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:30:36,736 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:30:37,149 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:30:38,319 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.951 seconds (JVM running for 5.441)
+2022-01-08 11:30:54,639 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:31:31,755 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 54027 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:31:31,759 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:31:31,759 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:31:34,061 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:31:34,324 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:31:35,260 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.809 seconds (JVM running for 4.335)
+2022-01-08 11:31:38,602 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:33:05,113 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 54459 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:33:05,116 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:33:05,116 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:33:07,565 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:33:07,821 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:33:08,796 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.003 seconds (JVM running for 4.394)
+2022-01-08 11:33:13,560 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:33:51,763 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-08 11:33:53,877 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-08 11:33:55,507 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-08 11:34:29,515 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-01-08 11:34:30,460 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-01-08 11:34:42,354 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-01-08 11:34:42,581 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-01-08 11:34:42,599 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-01-08 11:34:54,398 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 11:35:54,143 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 54859 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:35:54,147 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:35:54,148 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:35:56,497 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:35:56,751 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:35:57,677 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.871 seconds (JVM running for 4.264)
+2022-01-08 11:36:00,780 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:36:59,707 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 55092 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:36:59,709 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:36:59,710 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:37:02,560 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:37:02,880 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:37:04,064 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.811 seconds (JVM running for 5.338)
+2022-01-08 11:37:16,725 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:37:33,410 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 55310 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:37:33,412 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:37:33,413 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:37:36,087 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:37:36,400 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:37:37,467 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.476 seconds (JVM running for 5.055)
+2022-01-08 11:37:39,399 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:39:21,578 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 11:39:22,509 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:39:51,684 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-01-08 11:39:51,919 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-6] login success username: supper_admin
+2022-01-08 11:39:51,940 INFO bkav.com.springboot.services.ipml.AccountServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-01-08 11:40:01,965 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-01-08 11:40:01,985 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-7] get list category success page: 0 size: 10
+2022-01-08 11:40:01,992 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-01-08 11:40:12,368 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:40:27,785 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 11:40:27,790 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-9] categoryRequest: bkav.com.springboot.payload.request.CategoryRequest@f6293d6
+2022-01-08 11:40:27,868 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-9] create category success
+2022-01-08 11:40:27,872 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 11:41:15,220 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:41:18,608 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:41:18,619 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-2] code: 0
+2022-01-08 11:41:18,620 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-2] insert category success
+2022-01-08 11:41:18,624 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-01-08 11:41:58,851 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:42:04,464 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 11:42:31,640 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:43:24,701 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 55983 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:43:24,705 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:43:24,706 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:43:27,559 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:43:27,988 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:43:29,311 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.545 seconds (JVM running for 6.255)
+2022-01-08 11:43:31,420 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:44:18,221 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 56196 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:44:18,225 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:44:18,226 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:44:20,628 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:44:20,885 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:44:21,887 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.013 seconds (JVM running for 4.353)
+2022-01-08 11:44:24,896 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:44:25,009 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-1] pErrText: Unknown column 'tuoi' in 'field list'
+2022-01-08 11:44:38,058 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-01-08 11:44:38,076 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-3] pErrText: UPDATE SUCCESS
+2022-01-08 11:44:38,112 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-01-08 11:44:59,838 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:45:11,321 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-01-08 11:45:11,326 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-5] connect successfully!
+2022-01-08 11:45:11,340 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-5] get list detail category success
+2022-01-08 11:45:11,345 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-01-08 11:46:20,472 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-01-08 11:46:20,475 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-01-08 11:46:35,972 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-01-08 11:46:35,985 INFO bkav.com.springboot.services.ipml.CategoryServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-01-08 11:48:14,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 56552 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:48:14,011 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:48:14,012 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:48:16,358 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:48:16,612 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:48:17,618 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 3.937 seconds (JVM running for 4.408)
+2022-01-08 11:48:26,093 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:48:27,067 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:48:54,599 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 56715 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:48:54,605 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:48:54,606 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:48:57,395 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:48:57,691 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:48:58,767 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.671 seconds (JVM running for 5.253)
+2022-01-08 11:49:01,388 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:51:36,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 56991 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:51:36,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:51:36,893 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:51:39,304 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:51:39,558 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:51:40,603 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 4.036 seconds (JVM running for 4.457)
+2022-01-08 11:51:41,985 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-01-08 11:51:41,988 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:11,314 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_271 on BaoMeo with PID 57296 (/home/baotq/Documents/Project Bkav/springboot/target/classes started by baotq in /home/baotq/Documents/Project Bkav/springboot)
+2022-01-08 11:54:11,317 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-01-08 11:54:11,317 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-08 11:54:14,841 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-01-08 11:54:15,092 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-01-08 11:54:16,256 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.573 seconds (JVM running for 6.054)
+2022-01-08 11:54:17,421 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:54:17,423 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:18,387 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-01-08 11:54:18,389 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:19,061 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-01-08 11:54:19,064 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:19,451 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] user detail redis ! null
+2022-01-08 11:54:19,452 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:19,895 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-01-08 11:54:19,900 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
+2022-01-08 11:54:20,350 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-01-08 11:54:20,351 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] authentication [ADMIN_CREATE, ADMIN_READ, ADMIN_UPDATE, ADMIN_DELETE, MANAGER_CREATE, MANAGER_READ, MANAGER_UPDATE, MANAGER_DELETE, USER_CREATE, USER_READ, USER_UPDATE, USER_DELETE, SUPPER_SETTING, ADMIN2_TEST2]
