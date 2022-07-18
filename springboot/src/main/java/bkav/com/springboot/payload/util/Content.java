@@ -43,4 +43,11 @@ public class Content {
     public static final String CHANGE_PASSWORD = "change password";
     public static final String GET_LIST_SETTING = "get list setting";
     public static final String GET_LIST_ACTIVITY_LOG = "get list activity log";
+
+
+    // JobDetail
+    public static final String GET_LIST_JOB = "get list job detail";
+    public static final String CREATE_JOB = "create job";
+    public static final String UPDATE_JOB = "update job";
+    public static final String DELETE_JOB = "delete job";
 }
