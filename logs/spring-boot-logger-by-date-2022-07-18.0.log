@@ -1,0 +1,871 @@
+2022-07-18 09:26:00,005 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 11596 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 09:26:00,045 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 09:26:00,045 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 09:26:06,989 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 09:26:07,315 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 09:26:08,973 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 9.932 seconds (JVM running for 11.761)
+2022-07-18 09:26:36,720 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,035 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,035 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,035 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,035 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,036 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,865 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,923 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,934 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,975 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,976 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:26:37,979 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:26:38,011 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:26:38,014 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:26:38,015 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:26:38,268 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:26:38,268 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:26:38,268 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:26:41,591 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:26:43,051 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:27:12,349 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:27:13,666 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] login success username: supper_admin
+2022-07-18 09:27:13,706 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] insert success activity log
+2022-07-18 09:27:13,751 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:27:28,179 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:27:28,179 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:30:30,734 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:30:30,734 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:30:32,481 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,507 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,508 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,509 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,510 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,512 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,806 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,808 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,817 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,826 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,864 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,865 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,865 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:30:32,874 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,876 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:30:32,877 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:30:33,004 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:30:33,004 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:30:33,004 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:30:37,920 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:30:38,040 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:30:55,707 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:30:55,813 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] ipAddress: 0:0:0:0:0:0:0:1
+2022-07-18 09:30:55,823 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] session: 84667FC08457450B77623B9659CD5D6A
+2022-07-18 09:30:55,854 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] count ipAddress: 1
+2022-07-18 09:30:55,857 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] ipAddress time expire: 899
+2022-07-18 09:30:55,858 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] count session id: 1
+2022-07-18 09:30:55,860 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-7] session id time expire: 899
+2022-07-18 09:30:55,896 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:31:01,419 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:31:01,526 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] ipAddress: 0:0:0:0:0:0:0:1
+2022-07-18 09:31:01,526 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] session: 84667FC08457450B77623B9659CD5D6A
+2022-07-18 09:31:01,535 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] count ipAddress: 2
+2022-07-18 09:31:01,536 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] ipAddress time expire: 893
+2022-07-18 09:31:01,537 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] count session id: 2
+2022-07-18 09:31:01,538 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] session id time expire: 893
+2022-07-18 09:31:10,055 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:31:10,155 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] ipAddress: 0:0:0:0:0:0:0:1
+2022-07-18 09:31:10,155 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] session: 84667FC08457450B77623B9659CD5D6A
+2022-07-18 09:31:10,160 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] count ipAddress: 3
+2022-07-18 09:31:10,161 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] ipAddress time expire: 884
+2022-07-18 09:31:10,162 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] count session id: 3
+2022-07-18 09:31:10,164 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-9] session id time expire: 884
+2022-07-18 09:31:21,454 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:31:21,559 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] ipAddress: 0:0:0:0:0:0:0:1
+2022-07-18 09:31:21,560 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] session: 84667FC08457450B77623B9659CD5D6A
+2022-07-18 09:31:21,566 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] count ipAddress: 4
+2022-07-18 09:31:21,567 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] ipAddress time expire: 872
+2022-07-18 09:31:21,567 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] count session id: 4
+2022-07-18 09:31:21,568 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-8] session id time expire: 872
+2022-07-18 09:31:30,962 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:31:31,177 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-07-18 09:31:31,205 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-07-18 09:32:07,179 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:32:07,179 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:35:26,466 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 20656 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 09:35:26,470 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 09:35:26,471 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 09:35:30,726 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 09:35:30,969 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 09:35:32,447 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.545 seconds (JVM running for 7.469)
+2022-07-18 09:35:37,840 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:35:37,884 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:35:37,885 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:35:37,885 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:35:37,885 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:35:37,885 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,219 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,219 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,270 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,281 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,323 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,323 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,327 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:35:38,331 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,343 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,344 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:35:38,572 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,572 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,572 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:35:38,572 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:35:50,581 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:35:54,607 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:35:55,368 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-07-18 09:35:55,430 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-07-18 09:35:55,490 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:36:13,843 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:36:13,845 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] null
+2022-07-18 09:43:33,262 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 8588 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 09:43:33,267 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 09:43:33,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 09:43:36,815 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 09:43:36,992 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 09:43:38,280 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.407 seconds (JVM running for 6.259)
+2022-07-18 09:43:43,400 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:43:43,416 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] null
+2022-07-18 09:53:06,720 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:53:06,722 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] null
+2022-07-18 09:53:08,222 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:53:08,976 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:53:08,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:53:08,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:53:08,977 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:53:08,979 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,280 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,280 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,307 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,317 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,355 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,356 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,358 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:53:09,363 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,375 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,376 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-9] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:53:09,547 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,547 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:53:09,547 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:53:11,267 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:53:14,143 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:53:21,742 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:53:22,456 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] login success username: supper_admin
+2022-07-18 09:53:22,519 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-3] insert success activity log
+2022-07-18 09:53:22,563 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:53:36,147 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] user detail redis ! null
+2022-07-18 09:53:36,174 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-5] get list page success page: 0 size: 100
+2022-07-18 09:53:36,197 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-5] insert success activity log
+2022-07-18 09:53:46,034 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:53:46,315 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-9] null
+2022-07-18 09:56:37,077 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 19548 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 09:56:37,080 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 09:56:37,081 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 09:56:40,800 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 09:56:41,004 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 09:56:42,251 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.619 seconds (JVM running for 6.527)
+2022-07-18 09:56:55,660 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:56:56,502 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-07-18 09:56:56,575 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-07-18 09:57:08,962 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:57:08,965 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] null
+2022-07-18 09:57:11,067 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,132 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,132 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,132 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,133 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,133 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,424 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,425 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,452 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,463 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,502 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,503 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,506 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:57:11,511 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,582 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,583 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-5] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 09:57:11,763 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,763 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,763 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 09:57:11,763 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 09:57:18,031 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 09:57:21,297 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 09:57:21,484 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-07-18 09:57:21,540 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-07-18 09:57:21,580 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 09:57:39,905 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 09:57:39,906 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-4] null
+2022-07-18 09:58:31,194 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-07-18 09:58:31,218 INFO bkav.com.springboot.services.impl.PageServiceImpl [http-nio-8888-exec-7] get list page success page: 0 size: 100
+2022-07-18 09:58:31,288 INFO bkav.com.springboot.services.impl.PageServiceImpl [http-nio-8888-exec-7] insert success activity log
+2022-07-18 10:06:48,396 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 14288 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:06:48,399 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:06:48,399 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:06:51,946 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:06:52,157 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:06:53,431 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.455 seconds (JVM running for 6.262)
+2022-07-18 10:07:12,486 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,524 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,528 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,531 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,531 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,532 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,851 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,852 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,922 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,932 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,971 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,973 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,976 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:07:12,980 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,991 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:07:12,992 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:07:13,171 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:07:13,172 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:07:13,172 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:07:19,319 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:07:20,572 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:07:25,162 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:07:25,874 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-07-18 10:07:25,919 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-07-18 10:07:25,967 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:07:48,581 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:07:48,584 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] null
+2022-07-18 10:08:54,898 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 22068 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:08:54,902 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:08:54,902 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:08:58,110 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:08:58,292 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:08:59,473 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.004 seconds (JVM running for 5.893)
+2022-07-18 10:09:18,123 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:09:18,130 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:09:54,701 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:09:54,702 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:10:06,661 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 23492 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:10:06,667 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:10:06,668 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:10:11,666 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:10:12,062 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:10:13,345 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 7.335 seconds (JVM running for 8.512)
+2022-07-18 10:10:16,683 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:10:16,699 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] null
+2022-07-18 10:15:06,520 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:15:06,521 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] null
+2022-07-18 10:32:25,993 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,029 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,030 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,030 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,031 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,032 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,377 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,377 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,408 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,421 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,461 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,464 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,467 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:32:26,469 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,486 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,487 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:32:26,678 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,678 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:32:26,678 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:32:29,373 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:32:38,566 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:32:41,793 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:32:42,518 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] login success username: supper_admin
+2022-07-18 10:32:42,657 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-4] insert success activity log
+2022-07-18 10:32:42,731 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:33:00,613 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:33:00,614 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-6] null
+2022-07-18 10:36:12,617 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 20668 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:36:12,621 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:36:12,622 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:36:16,156 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:36:16,339 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:36:17,706 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.457 seconds (JVM running for 6.265)
+2022-07-18 10:36:22,501 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:36:22,520 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] null
+2022-07-18 10:36:27,237 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,263 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,263 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,265 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,268 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,268 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,599 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,601 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,633 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,644 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,687 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,689 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,691 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:36:27,697 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,710 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,711 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-7] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:36:27,899 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,898 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,899 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:36:27,898 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:36:34,737 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:36:38,275 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:36:39,043 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-07-18 10:36:39,124 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-07-18 10:36:39,166 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:36:58,076 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-07-18 10:36:58,079 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] null
+2022-07-18 10:37:27,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 12448 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:37:27,418 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:37:27,419 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:37:31,184 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:37:31,398 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:37:32,963 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.982 seconds (JVM running for 6.895)
+2022-07-18 10:37:37,542 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 10:37:37,574 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] null
+2022-07-18 10:37:49,031 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-07-18 10:37:49,035 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] null
+2022-07-18 10:37:50,923 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:37:50,958 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:37:50,958 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:37:50,959 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:37:50,958 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:37:50,959 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,275 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,275 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,304 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,312 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,351 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,352 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,355 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:37:51,359 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,373 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,373 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-8] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:37:51,565 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,565 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:37:51,565 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:37:56,217 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:37:57,155 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:38:00,861 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:38:01,224 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] login success username: supper_admin
+2022-07-18 10:38:01,290 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-2] insert success activity log
+2022-07-18 10:38:01,337 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:38:32,548 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-07-18 10:38:32,550 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-4] null
+2022-07-18 10:39:35,477 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 14968 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:39:35,480 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:39:35,481 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:39:39,287 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:39:39,497 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:39:41,024 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.0 seconds (JVM running for 6.878)
+2022-07-18 10:39:44,788 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 10:39:44,891 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 10:39:47,004 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,043 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,044 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,044 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,044 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,045 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,346 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,347 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,372 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,382 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,421 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,421 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,425 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:39:47,428 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,443 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,444 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-4] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:39:47,636 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,636 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,636 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:39:47,637 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:39:57,148 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:40:00,582 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:40:00,946 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-07-18 10:40:01,027 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-07-18 10:40:01,075 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:40:21,215 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-07-18 10:40:21,242 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 10:44:42,063 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 21480 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:44:42,067 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:44:42,068 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:44:46,221 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:44:46,464 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:44:47,176 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 50 common frames omitted
+2022-07-18 10:45:19,906 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 17796 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:45:19,909 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:45:19,910 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:45:23,797 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:45:23,986 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:45:24,583 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(Long)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 50 common frames omitted
+2022-07-18 10:49:25,770 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 11324 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:49:25,773 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:49:25,773 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:49:29,136 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:49:29,321 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:49:30,080 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(String)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at bkav.com.springboot.SpringbootApplication.main(SpringbootApplication.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(String)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(String)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'jobDetailController' method 
+bkav.com.springboot.controllers.JobDetailController#findById(String)
+to {GET [/api/job-detail]}: There is already 'jobDetailController' bean method
+bkav.com.springboot.controllers.JobDetailController#findAll() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 50 common frames omitted
+2022-07-18 10:50:34,702 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 16108 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:50:34,707 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:50:34,708 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:50:39,799 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:50:40,032 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:50:41,475 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 7.532 seconds (JVM running for 8.866)
+2022-07-18 10:50:54,588 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:50:54,673 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:50:54,674 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:50:54,674 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:50:54,674 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:50:54,674 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,009 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,009 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,067 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,077 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,118 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,119 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,122 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:50:55,126 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,140 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,140 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 10:50:55,370 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,370 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 10:50:55,370 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 10:50:57,603 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 10:51:01,119 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 10:51:04,344 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 10:51:05,098 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-07-18 10:51:05,173 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-07-18 10:51:05,217 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 10:51:33,947 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-07-18 10:51:34,014 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 10:51:42,267 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-07-18 10:51:48,521 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 10:51:56,779 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] user detail redis ! null
+2022-07-18 10:52:48,382 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 14916 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:52:48,387 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:52:48,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:52:52,563 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:52:52,820 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:52:54,236 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.335 seconds (JVM running for 7.235)
+2022-07-18 10:52:57,928 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 10:56:07,575 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 22608 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 10:56:07,578 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 10:56:07,578 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 10:56:10,972 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 10:56:11,151 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 10:56:12,312 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.145 seconds (JVM running for 5.998)
+2022-07-18 10:56:28,805 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 10:56:28,869 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 10:56:36,860 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-07-18 10:56:40,041 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-07-18 10:57:26,052 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] user detail redis ! null
+2022-07-18 11:06:09,248 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 22820 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 11:06:09,252 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 11:06:09,253 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 11:06:14,267 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 11:06:14,533 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 11:06:15,946 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 7.156 seconds (JVM running for 7.986)
+2022-07-18 11:06:25,046 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,087 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,092 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,092 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,093 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,094 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,408 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,408 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,458 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,471 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,511 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,512 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,515 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 11:06:25,517 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,533 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,533 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 11:06:25,731 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,733 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,733 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 11:06:25,733 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 11:06:32,579 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 11:06:35,645 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 11:06:36,473 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] login success username: supper_admin
+2022-07-18 11:06:36,556 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-10] insert success activity log
+2022-07-18 11:06:36,616 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 11:07:00,553 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] user detail redis ! null
+2022-07-18 11:07:00,597 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-2] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 11:07:16,822 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] user detail redis ! null
+2022-07-18 11:07:16,848 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] get list page success page: 0 size: 100
+2022-07-18 11:07:16,893 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-6] insert success activity log
+2022-07-18 11:09:33,845 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] user detail redis ! null
+2022-07-18 11:09:40,024 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] user detail redis ! null
+2022-07-18 11:24:05,357 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 11:24:05,357 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 11:24:33,902 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 11:24:33,903 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 13:09:56,345 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 3448 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:09:56,351 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:09:56,351 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:10:04,986 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:10:05,375 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:10:08,097 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 12.692 seconds (JVM running for 15.046)
+2022-07-18 13:10:14,077 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,184 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,187 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,187 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,189 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,195 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,916 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 13:10:14,918 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,065 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,092 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,190 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,198 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,201 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-2] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 13:10:15,209 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,232 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-6] Cannot set user authentication: non null key required
+2022-07-18 13:10:15,232 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-6] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 13:10:16,151 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-4] Cannot set user authentication: non null key required
+2022-07-18 13:10:16,151 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-8] Cannot set user authentication: non null key required
+2022-07-18 13:10:16,151 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-5] Cannot set user authentication: non null key required
+2022-07-18 13:10:19,399 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-7] Cannot set user authentication: non null key required
+2022-07-18 13:10:20,018 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-9] Cannot set user authentication: non null key required
+2022-07-18 13:10:40,060 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-10] Cannot set user authentication: non null key required
+2022-07-18 13:10:40,063 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-10] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 13:12:11,929 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 23608 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:12:11,933 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:12:11,934 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:12:18,486 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:12:18,898 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:12:21,556 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 10.308 seconds (JVM running for 12.171)
+2022-07-18 13:12:28,709 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 13:12:28,732 ERROR bkav.com.springboot.security.jwt.AuthEntryPointJwt [http-nio-8888-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-07-18 13:14:33,114 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 24292 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:14:33,119 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:14:33,120 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:14:43,798 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:14:44,358 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:14:47,758 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 15.527 seconds (JVM running for 17.192)
+2022-07-18 13:16:06,762 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 20828 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:16:06,765 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:16:06,765 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:16:13,407 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:16:13,893 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:16:16,694 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 10.58 seconds (JVM running for 12.187)
+2022-07-18 13:17:01,627 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] Cannot set user authentication: non null key required
+2022-07-18 13:17:04,956 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] login success username: supper_admin
+2022-07-18 13:17:05,139 INFO bkav.com.springboot.services.impl.AccountServiceImpl [http-nio-8888-exec-1] insert success activity log
+2022-07-18 13:17:05,422 ERROR bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-2] Cannot set user authentication: non null key required
+2022-07-18 13:17:31,227 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-3] user detail redis ! null
+2022-07-18 13:17:31,405 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-3] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 13:17:53,796 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 16172 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:17:53,801 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:17:53,802 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:18:03,277 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:18:03,722 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:18:06,342 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 13.494 seconds (JVM running for 16.754)
+2022-07-18 13:18:26,487 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 13:19:22,891 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 13:19:31,043 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 2920 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:19:31,048 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:19:31,048 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:19:38,106 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:19:38,569 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:19:41,546 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 11.403 seconds (JVM running for 12.876)
+2022-07-18 13:20:29,746 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 13:23:48,596 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 13:23:55,681 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 10220 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:23:55,686 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:23:55,687 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:24:02,841 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:24:03,261 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:24:05,882 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 10.953 seconds (JVM running for 12.486)
+2022-07-18 13:24:22,311 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
+2022-07-18 13:29:20,755 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class bkav.com.springboot.models.Entities.JobDetail.apiId] of primitive type setter of bkav.com.springboot.models.Entities.JobDetail.apiId
+2022-07-18 13:34:00,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 16992 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:34:00,639 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:34:00,640 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:34:04,466 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:34:04,674 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:34:06,714 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 6.474 seconds (JVM running for 7.327)
+2022-07-18 13:38:55,472 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 9212 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:38:55,474 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:38:55,475 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:38:59,048 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:38:59,219 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:39:00,350 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.246 seconds (JVM running for 6.026)
+2022-07-18 13:40:23,160 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 11004 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:40:23,163 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:40:23,163 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:40:26,620 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:40:27,007 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:40:28,407 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.596 seconds (JVM running for 6.352)
+2022-07-18 13:40:58,724 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 5632 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:40:58,727 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:40:58,728 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:41:02,082 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:41:02,272 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:41:03,531 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.237 seconds (JVM running for 6.069)
+2022-07-18 13:41:40,037 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 4436 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-18 13:41:40,040 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-18 13:41:40,040 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-18 13:41:43,528 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-18 13:41:43,701 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-18 13:41:44,852 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 5.263 seconds (JVM running for 6.176)
