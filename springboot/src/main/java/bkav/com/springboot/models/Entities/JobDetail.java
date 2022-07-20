@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
+import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -49,15 +51,18 @@ public class JobDetail  implements Serializable {
     @Column(name = "CanGetDocumentCome")
     private int canGetDocumentCome;
 
+    @ColumnDefault("null")
     @Column(name = "Options")
     private String options;
 
-    @Column(name = "IsStatistics")
-    private int isStatistics;
+    @Column(name = "IsStatistics", columnDefinition = "BIT")
+    private Boolean isStatistics;
 
+    @ColumnDefault("null")
     @Column(name = "ApiId")
     private Long apiId;
 
+    @ColumnDefault("null")
     @Column(name = "JobTitleIdHRM")
     private String jobTitleIdHRM;
 }
