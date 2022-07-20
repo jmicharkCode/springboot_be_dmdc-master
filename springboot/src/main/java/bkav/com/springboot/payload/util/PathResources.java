@@ -34,4 +34,6 @@ public class PathResources {
     public static final String ACTIVITY_LOG = "/api/activity-log";
 
     public static final String JOB_DETAIL = "/api/job-detail";
+
+    public static final String POSITION = "/api/position";
 }

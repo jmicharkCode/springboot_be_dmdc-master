@@ -66,7 +66,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         PathResources.CATEGORY + "/**",
                         PathResources.DATA_TYPE + "/**",
                         PathResources.ACTIVITY_LOG + "/**",
-           //              PathResources.JOB_DETAIL + "/**",
+                        PathResources.JOB_DETAIL + "/**",
                         "/file/**").permitAll()
                 .anyRequest().authenticated();
 
