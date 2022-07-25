@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.models.Mapper;public class DepartmentMapper {
-=======
+
 package bkav.com.springboot.models.Mapper;
 
 import bkav.com.springboot.models.Dto.DepartmentDto;
@@ -14,5 +12,4 @@ public interface DepartmentMapper {
 
     DepartmentDto toDTO(Department model);
     Department toModel(DepartmentDto dto);
->>>>>>> Stashed changes
 }

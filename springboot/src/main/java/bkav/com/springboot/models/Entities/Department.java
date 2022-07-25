@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.models.Entities;public class Department {
-=======
-package bkav.com.springboot.models.Entities;
 
+package bkav.com.springboot.models.Entities;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
@@ -124,5 +121,4 @@ public class Department implements Serializable {
 
     @Version
     private Date version;
->>>>>>> Stashed changes
 }

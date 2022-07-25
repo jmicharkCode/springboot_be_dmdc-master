@@ -4,11 +4,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-<<<<<<< Updated upstream
 import lombok.experimental.SuperBuilder;
-=======
 import org.hibernate.annotations.ColumnDefault;
->>>>>>> Stashed changes
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

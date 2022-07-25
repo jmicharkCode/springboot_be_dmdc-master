@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.services;public interface DepartmentService {
-=======
+
 package bkav.com.springboot.services;
 
 import bkav.com.springboot.models.Dto.DepartmentDto;
@@ -16,5 +14,4 @@ public interface DepartmentService {
 
     Department createNewDepartment(Department dto);
     boolean delete(String id) ;
->>>>>>> Stashed changes
 }

@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.models.Dto;public class DepartmentDto {
-=======
+
 package bkav.com.springboot.models.Dto;
 
 import lombok.Getter;
@@ -24,5 +22,4 @@ public class DepartmentDto {
 
     private int hasCalendar;
 
->>>>>>> Stashed changes
 }

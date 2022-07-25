@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.repository;public interface DepartmentRepository {
-=======
+
 package bkav.com.springboot.repository;
 
 import bkav.com.springboot.models.Entities.Department;
@@ -17,5 +15,4 @@ public interface DepartmentRepository extends JpaRepository<Department, Long> {
     @Transactional
     @Query("UPDATE Department d SET d.departmentIdExt = :idExt WHERE d.id = :depId")
     void saveDepartmentIdExt(@Param("depId") Long companyId, @Param("idExt") String address);
->>>>>>> Stashed changes
 }
