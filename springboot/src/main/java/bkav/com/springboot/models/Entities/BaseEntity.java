@@ -3,15 +3,18 @@ package bkav.com.springboot.models.Entities;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @MappedSuperclass
-@Data
+@EntityListeners(AuditingEntityListener.class)
 @Setter
 @Getter
+@NoArgsConstructor
 public class BaseEntity {
 
     @Id

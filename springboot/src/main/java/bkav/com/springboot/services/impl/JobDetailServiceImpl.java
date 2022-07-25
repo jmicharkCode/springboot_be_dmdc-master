@@ -2,14 +2,11 @@ package bkav.com.springboot.services.impl;
 
 
 
-import bkav.com.springboot.models.Dto.JobDetailDto;
 import bkav.com.springboot.models.Entities.JobDetail;
-import bkav.com.springboot.models.Mapper.JobDetailMapper;
 import bkav.com.springboot.repository.JobDetailRepository;
 import bkav.com.springboot.services.JobDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import springfox.documentation.swagger2.mappers.ModelMapper;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.*;
