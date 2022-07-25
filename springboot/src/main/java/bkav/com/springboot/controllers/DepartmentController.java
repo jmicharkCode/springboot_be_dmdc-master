@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.controllers;public class DepartmentController {
-=======
+
 package bkav.com.springboot.controllers;
 
 import bkav.com.springboot.ResHelper.ResponseHelper;
@@ -95,5 +93,4 @@ public class DepartmentController {
         }
         return ResponseHelper.getResponse("Failed", HttpStatus.OK);
     }
->>>>>>> Stashed changes
 }

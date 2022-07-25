@@ -2099,3 +2099,60 @@ Caused by: org.hibernate.AnnotationException: No identifier specified for entity
 2022-07-25 15:54:02,226 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringbootApplication in 9.239 seconds (JVM running for 11.201)
 2022-07-25 15:54:32,277 INFO bkav.com.springboot.security.jwt.AuthTokenFilter [http-nio-8888-exec-1] user detail redis ! null
 2022-07-25 15:54:32,569 INFO bkav.com.springboot.controllers.ExceptionController [http-nio-8888-exec-1] Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1; statement executed: update department set ApiId=?, CreatedOnDate=?, CreatedByUserId=?, DepartmentIdExt=?, DepartmentIdHRM=?, DepartmentName=?, DepartmentPath=?, Domain=?, Emails=?, HasCalendar=?, HasReceiveWarning=?, IsActivated=?, LastModifiedByUserId=?, LastModifiedOnDate=?, Level=?, Orders=?, ParentId=?, ParentIdHRM=?, version=? where DepartmentId=? and version=?; nested exception is org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1; statement executed: update department set ApiId=?, CreatedOnDate=?, CreatedByUserId=?, DepartmentIdExt=?, DepartmentIdHRM=?, DepartmentName=?, DepartmentPath=?, Domain=?, Emails=?, HasCalendar=?, HasReceiveWarning=?, IsActivated=?, LastModifiedByUserId=?, LastModifiedOnDate=?, Level=?, Orders=?, ParentId=?, ParentIdHRM=?, version=? where DepartmentId=? and version=?
+2022-07-25 16:04:02,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 15972 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-25 16:04:02,674 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-25 16:04:02,674 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-25 16:04:09,883 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-25 16:04:10,197 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-25 16:04:12,566 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2022-07-25 16:04:21,534 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 4708 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-25 16:04:21,537 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-25 16:04:21,538 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-25 16:04:28,221 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-25 16:04:28,691 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-25 16:04:31,507 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2022-07-25 16:04:42,959 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringbootApplication using Java 1.8.0_333 on 21AK22-COM with PID 18176 (D:\IT-Job\springboot_be_dmdc-master\springboot\target\classes started by Administrator in D:\IT-Job\springboot_be_dmdc-master)
+2022-07-25 16:04:42,964 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-07-25 16:04:42,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-25 16:04:49,040 DEBUG bkav.com.springboot.config.ConfigRedis [main] redis connection
+2022-07-25 16:04:49,317 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2022-07-25 16:04:51,123 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+

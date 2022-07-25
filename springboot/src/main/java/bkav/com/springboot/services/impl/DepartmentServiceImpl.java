@@ -1,14 +1,11 @@
-<<<<<<< Updated upstream
-package bkav.com.springboot.services.impl;public class DepartmentServiceImpl {
-=======
 package bkav.com.springboot.services.impl;
 
-import bkav.com.springboot.models.Dto.DepartmentDto;
+
 import bkav.com.springboot.models.Entities.Department;
-import bkav.com.springboot.models.Mapper.DepartmentMapper;
+
 import bkav.com.springboot.repository.DepartmentRepository;
 import bkav.com.springboot.services.DepartmentService;
-import org.hibernate.Session;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -159,5 +156,4 @@ public class DepartmentServiceImpl implements DepartmentService {
         repository.deleteById(Long.parseLong(id));
         return true;
     }
->>>>>>> Stashed changes
 }
