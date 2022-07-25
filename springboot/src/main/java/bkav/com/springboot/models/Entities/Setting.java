@@ -1,6 +1,7 @@
 package bkav.com.springboot.models.Entities;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Column;
@@ -13,6 +14,7 @@ import java.io.Serializable;
 @Table(name = "Setting")
 @Getter
 @Setter
+@NoArgsConstructor
 public class Setting extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -24,6 +26,10 @@ public class Setting extends BaseEntity implements Serializable {
     @NotBlank
     @Column(name = "Status")
     private boolean status;
+
+    public boolean isStatus() {
+        return status;
+    }
 
     @Column(name = "IsDelete")
     private boolean delete;

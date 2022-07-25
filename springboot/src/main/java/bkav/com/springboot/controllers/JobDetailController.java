@@ -15,11 +15,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.xml.soap.Detail;
 import java.util.List;
-import java.util.UUID;
-import java.util.stream.Collectors;
-
 @RestController
 @RequestMapping(PathResources.JOB_DETAIL)
 public class JobDetailController {
@@ -27,8 +23,8 @@ public class JobDetailController {
     private JobDetailService jobService;
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @GetMapping
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @GetMapping(PathResources.GET_LIST)
+    @PreAuthorize("hasPermission('JOB', 'READ')")
     public Object findAll( HttpServletRequest httpServletRequest) {
         List<JobDetail> jobs = jobService.findAll();
         String ip = httpServletRequest.getHeader("X-FORWARDED-FOR");
@@ -38,8 +34,8 @@ public class JobDetailController {
     }
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @GetMapping("/{job-id}")
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @GetMapping(PathResources.GET_LIST +  "/{job-id}")
+    @PreAuthorize("hasPermission('JOB', 'READ')")
     public Object findById(@PathVariable("job-id") String jobId) {
         JobDetail jobFind = jobService.findById(jobId);
         if(jobFind == null) {
@@ -50,8 +46,8 @@ public class JobDetailController {
     }
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @PostMapping
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @PostMapping(PathResources.SAVE )
+    @PreAuthorize("hasPermission('JOB', 'CREATE')")
     public Object createNewJob(@RequestBody JobDetail job, BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
             /*return new ResponseEntity<>(bindingResult.getAllErrors()
@@ -65,8 +61,8 @@ public class JobDetailController {
 
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @PutMapping("/{job-id}")
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @PutMapping(PathResources.UPDATE + "/{job-id}")
+    @PreAuthorize("hasPermission('JOB', 'UPDATE')")
     public Object updateJob(@PathVariable("job-id") String jobId
                         ,@RequestBody JobDetail job, BindingResult bindingResult) {
         if(bindingResult.hasErrors()) {
@@ -83,8 +79,8 @@ public class JobDetailController {
     }
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @PostMapping ("/{job-id}")
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @PostMapping (PathResources.DELETE + "/{job-id}")
+    @PreAuthorize("hasPermission('JOB', 'DELETE')")
     public Object removeJob(@PathVariable("job-id") String jobId) {
         JobDetail  job = jobService.findById(jobId);
         if(job == null) return ResponseHelper.getResponse("Job Id is not existed", HttpStatus.OK);

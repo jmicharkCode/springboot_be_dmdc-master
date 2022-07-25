@@ -1,6 +1,8 @@
 package bkav.com.springboot.models.Entities;
 
 import bkav.com.springboot.models.Entities.FK.FKUserRole;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
@@ -10,6 +12,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
+@Getter
+@Setter
 @Table(name = "UserRoleGroup")
 public class UserRole implements Serializable {
 

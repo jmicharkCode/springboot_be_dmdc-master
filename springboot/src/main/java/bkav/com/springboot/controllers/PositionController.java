@@ -26,7 +26,7 @@ public class PositionController {
     private PositionService positionService;
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @PreAuthorize("hasPermission('POSITION', 'READ')")
     @GetMapping(PathResources.GET_LIST)
     public Object findAll() {
         List<Position> positions = positionService.getList();
@@ -35,14 +35,14 @@ public class PositionController {
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
     @PostMapping(PathResources.SAVE)
-    @PreAuthorize("hasPermission('ADMIN', 'CREATE')")
+    @PreAuthorize("hasPermission('POSITION', 'CREATE')")
     public ResponseEntity<?> insert(@RequestBody Position position, HttpServletRequest httpServletRequest) {
         return positionService.insert(position);
     }
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
     @PutMapping(PathResources.UPDATE)
-    @PreAuthorize("hasPermission('ADMIN', 'UPDATE') or hasPermission('MANAGER', 'UPDATE')")
+    @PreAuthorize("hasPermission('POSITION', 'UPDATE')")
     public ResponseEntity<?> update(@RequestParam int id,
                                     @RequestBody Position position,
                                     HttpServletRequest httpServletRequest) {
@@ -51,7 +51,7 @@ public class PositionController {
 
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
     @DeleteMapping(PathResources.DELETE)
-    @PreAuthorize("hasPermission('ADMIN', 'READ') or hasPermission('MANAGER', 'READ')")
+    @PreAuthorize("hasPermission('POSITION', 'DELETE')")
     public ResponseEntity<?> delete(@RequestParam int id,
                                     HttpServletRequest httpServletRequest) {
         return positionService.delete(id);
