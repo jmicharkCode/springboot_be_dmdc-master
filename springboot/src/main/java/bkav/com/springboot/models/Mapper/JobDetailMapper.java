@@ -6,6 +6,10 @@ import bkav.com.springboot.models.Entities.JobDetail;
 import org.mapstruct.factory.Mappers;
 
 public class JobDetailMapper {
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     public JobDetailDto toDto(JobDetail model) {
         if ( model == null ) {
             return null;

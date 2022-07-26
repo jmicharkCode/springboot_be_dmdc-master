@@ -1,6 +1,7 @@
 package bkav.com.springboot.services.impl;
 
 
+<<<<<<< Updated upstream
 
 import bkav.com.springboot.models.Dto.JobDetailDto;
 import bkav.com.springboot.models.Entities.JobDetail;
@@ -13,23 +14,62 @@ import springfox.documentation.swagger2.mappers.ModelMapper;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.*;
+=======
+import bkav.com.springboot.models.Dto.JobDetailDto;
+import bkav.com.springboot.models.Entities.ActivityLog;
+import bkav.com.springboot.models.Entities.JobDetail;
+
+import bkav.com.springboot.models.Entities.User;
+import bkav.com.springboot.models.Mapper.JobDetailMapper;
+import bkav.com.springboot.payload.response.MessageResponse;
+import bkav.com.springboot.payload.util.ActivityType;
+import bkav.com.springboot.payload.util.Content;
+import bkav.com.springboot.payload.util.Message;
+import bkav.com.springboot.payload.util.Status;
+import bkav.com.springboot.repository.ActivityLogRepository;
+import bkav.com.springboot.repository.JobDetailRepository;
+import bkav.com.springboot.repository.UserRepository;
+import bkav.com.springboot.services.JobDetailService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+import java.util.*;
+import java.util.stream.Collectors;
+>>>>>>> Stashed changes
 
 @Service
 public class JobDetailServiceImpl implements JobDetailService {
     @Autowired
     private JobDetailRepository jobRepository;
 
+<<<<<<< Updated upstream
     public JobDetail findById(String jobId) {
         Optional<JobDetail> jobOpt = jobRepository.findById(Long.parseLong(jobId));
         return jobOpt.orElse(null);
     }
+=======
+>>>>>>> Stashed changes
     public List<JobDetail> findAll() {
         List<JobDetail> jobs = jobRepository.findAll();
         return jobs;
     }
 
+<<<<<<< Updated upstream
     @Override
     public JobDetail createNewJob(JobDetail job) {
+=======
+   public JobDetail createNewJob(JobDetail job) {
+>>>>>>> Stashed changes
         JobDetail newJob = jobRepository.save(job);
         return newJob;
 
@@ -37,6 +77,7 @@ public class JobDetailServiceImpl implements JobDetailService {
 
 
     @Override
+<<<<<<< Updated upstream
     public boolean deletedJob(String jobId) {
         try {
            JobDetail job = jobRepository.getById(Long.parseLong(jobId));
@@ -49,6 +90,19 @@ public class JobDetailServiceImpl implements JobDetailService {
 
     @Override
     public JobDetail update(Long id, JobDetail job) {
+=======
+    public JobDetail removeJob(String jobId) {
+        return null;
+    }
+
+    @Override
+    public JobDetail findById(Long jobId) {
+        Optional<JobDetail> jobOpt = jobRepository.findById(jobId);
+        return jobOpt.orElse(null);
+    }
+
+    public JobDetail update(String id, JobDetail job) {
+>>>>>>> Stashed changes
        Optional<JobDetail> jobOpt = jobRepository.findById(id);
 
        if(!jobOpt.isPresent()) {
@@ -69,10 +123,15 @@ public class JobDetailServiceImpl implements JobDetailService {
 
        currentJob.setName(job.getName());
        return jobRepository.save(currentJob) ;
+<<<<<<< Updated upstream
 
    }
 
 
+=======
+   }
+
+>>>>>>> Stashed changes
    /* @Autowired
     private ActivityLogRepository activityLogRepository;
 

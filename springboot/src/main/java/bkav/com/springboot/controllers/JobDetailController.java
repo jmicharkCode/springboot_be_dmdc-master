@@ -1,13 +1,20 @@
 package bkav.com.springboot.controllers;
 
 import bkav.com.springboot.ResHelper.ResponseHelper;
+<<<<<<< Updated upstream
 import bkav.com.springboot.models.Dto.JobDetailDto;
 import bkav.com.springboot.models.Entities.JobDetail;
+=======
+// import bkav.com.springboot.models.Dto.JobDetailDto;
+import bkav.com.springboot.models.Entities.JobDetail;
+import bkav.com.springboot.models.Entities.RoleGroup;
+>>>>>>> Stashed changes
 import bkav.com.springboot.payload.util.PathResources;
 import bkav.com.springboot.services.JobDetailService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.Authorization;
 import org.springframework.beans.factory.annotation.Autowired;
+<<<<<<< Updated upstream
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -19,10 +26,22 @@ import javax.xml.soap.Detail;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
+=======
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
+import java.util.List;
+>>>>>>> Stashed changes
 
 @RestController
 @RequestMapping(PathResources.JOB_DETAIL)
 public class JobDetailController {
+<<<<<<< Updated upstream
     @Autowired
     private JobDetailService jobService;
 
@@ -94,6 +113,16 @@ public class JobDetailController {
         return ResponseHelper.getResponse("Failed", HttpStatus.OK);
     }
 
+=======
+    private JobDetailService jobService;
+
+    @GetMapping
+    public Object findAll() {
+        List<JobDetail> jobs = jobService.findAll();
+        return ResponseHelper.getResponse(jobs, HttpStatus.OK);
+    }
+
+>>>>>>> Stashed changes
     /*
     @ApiOperation(value = "", authorizations = {@Authorization(value = "jwtToken")})
     @GetMapping(PathResources.GET_LIST)
